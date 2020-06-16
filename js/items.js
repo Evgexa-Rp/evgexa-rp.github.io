@@ -1533,5 +1533,9 @@ var items = {
   "Minecraft.GOLD_NUGGET": {
     "name": "Золотой самородок",
     "image": "./img/items/gold_nugget.png"
+  },
+  "Minecraft.SPRUCE_PLANKS": {
+    "name": "Еловые доски",
+    "image": "",
   }
 }
