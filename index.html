@@ -201,7 +201,7 @@ function update(craft,craftList){
           let el = craftList[uIterator%craftList.length][i][j];
           var onClick = "";
           if (el != null &&el.search("Minecraft") == -1){
-            onClick = `startSearch("${items[el].name}","${items[craft.id].name}")`;
+            onClick = `startSearch('${items[el].name}','${items[craft.id].name}')`;
           }
           try{
           oneCraft+=`<td class="craftTD" ${onClick} item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
