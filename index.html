@@ -204,7 +204,7 @@ function update(craft,craftList){
             onClick = `startSearch('${items[el].name.replace(/<span.*>(.*)<\/span>/,"$1")}','${items[craft.id].name.replace(/<span.*>(.*)<\/span>/,"$1")}')`;
           }
           try{
-          oneCraft+=`<td class="craftTD" ${onClick} item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
+          oneCraft+=`<td class="craftTD" onclick="${onClick}" item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
           }catch(e){
             console.log(el);
           }
