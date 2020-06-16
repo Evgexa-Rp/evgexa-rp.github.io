@@ -1536,7 +1536,7 @@ var items = {
   },
   "Minecraft.SPRUCE_PLANKS": {
     "name": "Еловые доски",
-    "image": "",
+    "image": "./img/items/Minecraft.SPRUCE_PLANKS.png",
   }
 }
 //
