@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wiki Kingdom RPG</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="./js/items.js"></script>
+    <script src="./js/crafts.js"></script>
+</head>
+<body>
+   <div class="main">
+     
+      <div class="buttons"><button class="mcbutton">Лор</button><button class="mcbutton" style="display: none;">EvgexaKeys</button></div>
+       <div class="search">
+        <p class="wiki">Wiki Kingdom <b>RP</b><i>G</i></p>
+		   	<div class="searchBar">
+				<input type="text" id="input" class="input" placeholder="Введите название"/>
+				<div class="filter">
+					<button class="transparentbutton" title="Эльфы" style="background-image: url('./img/elf.png')" onclick="filter('elf')"></button>
+					<button class="transparentbutton" title="Гномы" style="background-image: url('./img/gnom.png')" onclick="filter('dvarf')"></button>
+					<button class="transparentbutton" title="Люди" style="background-image: url('./img/jakal.png')" onclick="filter('people')"></button>
+					<button class="transparentbutton" title="Нежить" style="background-image: url('./img/nejit.png')" onclick="filter('nezh')"></button>
+					<button class="transparentbutton" title="Все" style="background-image: url('./img/bar.png')" onclick="filter(null)"></button>
+				</div>
+		   	</div>
+			<div class="scroll" id="craftlist">
+
+      </div>
+			</div>
+        </div>
+    <div class="hoverItem" id="hover">
+      lol
+    </div>
+<script>
+  var filterGroup = null;
+function filter(param){
+    sound(); 
+    filterGroup=param;
+	//let value = this.value.toLowerCase().trim();
+	  sortCrafts();
+}
+function startSearch(ingreedient,output){
+  document.getElementById("input").value = ingreedient+"|"+output;
+  filterGroup=null;
+	sortCrafts();
+}
+function sortCrafts(){
+  filterGroup;
+  let search = document.querySelector('#input').value.toLowerCase().trim();
+  let list = document.querySelectorAll('.search .block');
+  list.forEach(elem => {
+    if ((!filterGroup||elem.getAttribute("content") == filterGroup) && elem.innerText.toLowerCase().search(search) != -1 ) {
+			elem.classList.remove('hide');
+		}else{
+			elem.classList.add('hide');
+    }
+  });
+}
+window.onload = () => {
+	let input = document.querySelector('#input');
+	input.oninput = sortCrafts;
+}
+function sound() {
+	 var audio = new Audio(); // Создаём новый элемент Audio
+	 audio.src = 'minecraft_click.mp3'; // Указываем путь к звуку "клика"
+     audio.play();
+}
+document.addEventListener('mousemove', function(e){
+  hover(e);
+})
+document.addEventListener("scroll", function(e){
+  hover(null);
+});
+function hover(e){
+  if (e == null){
+    document.getElementById("hover").style.display = "none";
+    return;
+  }
+  let itemID = e.target.getAttribute("item");
+  if (itemID == "null" || itemID == null) {
+    document.getElementById("hover").style.display = "none";
+    return;
+  }else{
+    if (!items[itemID]) return;
+    document.getElementById("hover").style.display = "block";
+  }
+  
+  let name = `<p class='itemNameHover'>${items[itemID].name}</p>`;
+  if (items[itemID].lore){
+    items[itemID].lore.forEach(e => {
+    name+="<p>"+((e=="")?"&nbsp;":e)+"</p>";
+  });
+}
+  let hover = document.getElementById("hover");
+  hover.innerHTML = name;
+  hover.style.top = (e.pageY-30)+"px";
+  hover.style.left = (e.pageX+20)+"px";
+}
+normalCraftManager();
+function normalCraftManager(){
+  crafts.forEach(e=>{
+    if (e.type=="normal"){
+      addNewCraft(e);
+    }else if(e.type=="furnace"){
+      addNewFurnaceCraft(e);
+    }
+  });
+}
+function addNewFurnaceCraft(craft){
+  let newCraft = document.createElement("div");
+  newCraft.classList.add("block");
+  newCraft.setAttribute("content",craft.group);
+  try{
+  newCraft.innerHTML = `<div class="furnace">
+                            <div class="windowCraft">
+                                <div class="ingredient" item="${craft.craft}"">
+                                  <img src="${items[craft.craft].image}">  
+                                </div>
+                            </div>
+                            <div class="outputF" item="${craft.id}"><img src="${items[craft.id].image}" alt=""></div> 
+					    </div>
+              <div class="text">
+                <li>${items[craft.id].name}</li>
+                <hr>
+                  <p>
+					        ${
+                    "Время переплавки: "+Math.floor(craft.cooktime/20)+'с'
+                    
+                  }
+                  </p>${(craft.blastingtime>0)?("<p>Время в плавильни: "+Math.floor(craft.blastingtime/20)+"c</p>"):""}
+              </div>
+            </div>
+        `}catch(e){
+          console.log(craft.id);
+        }
+        document.getElementById("craftlist").append(newCraft);
+}
+function addNewCraft(craft){
+  let newCraft = document.createElement("div");
+  newCraft.classList.add("block");
+  newCraft.setAttribute("content",craft.group);
+    var oneCraft = ""
+    for (var i=0;i<3;i++){
+      oneCraft+="<tr>";
+      for(var j=0;j<3;j++){
+        if (craft.crafts[0][i]){
+          let el = craft.crafts[0][i][j];
+          var onClick = "";
+          if (el != null && el.search("Minecraft") == -1){
+            try{
+              onClick = `startSearch('${(items[el].name).replace(/<span.*>(.*)<\/span>/,"$1")}','${(items[craft.id].name).replace(/<span.*>(.*)<\/span>/,"$1")}')`;
+            }catch(e){
+              console.log(e);
+              console.log(el);
+              console.log(craft.id);
+            }
+            
+          }
+          oneCraft+=`<td class="craftTD" onclick="${onClick}" item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
+        }
+      }
+      oneCraft+="</tr>"
+    }
+    if(craft.crafts.length > 1){
+      setInterval(() => {
+        update(craft.id,craft.crafts);
+      }, 2000);
+    }
+  if (items[craft.id] == null) return;
+  newCraft.innerHTML = `<div class="craft">
+                            <div class="windowCraft">
+                                <table class="craftIcon" id="${craft.id}">
+                                    ${oneCraft}
+                                </table>
+                            </div>
+                            
+                            <div class="output" item="${craft.id}"><img src="${items[craft.id].image}" alt=""></div> 
+					    </div>
+              <div class="text">
+                <li>${items[craft.id].name}</li>
+                <hr>
+					        ${
+                    craft.lore
+                  }
+              </div>
+            </div>
+        `
+  document.getElementById("craftlist").append(newCraft);
+}
+var uIterator = 0;
+setInterval(() => {
+  uIterator++;
+}, 2000);
+function update(id,craftList){
+    let craftGrid = document.getElementById(id);
+    let oneCraft="";
+    for (var i=0;i<3;i++){
+      oneCraft+="<tr>";
+      for(var j=0;j<3;j++){
+        if (craftList[uIterator%craftList.length][i]){
+          let el = craftList[uIterator%craftList.length][i][j];
+          var onClick = "";
+          if (el != null &&el.search("Minecraft") == -1){
+            //onClick = `startSearch("${items[el].name}","${items[el].name}")`;
+          }
+          oneCraft+=`<td class="craftTD" ${onClick} item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
+        }
+      }
+      oneCraft+="</tr>"
+    }
+    if (craftGrid)craftGrid.innerHTML = oneCraft;
+}
+</script>
+
+</body>
+</html>
