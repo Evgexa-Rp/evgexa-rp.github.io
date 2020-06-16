@@ -510,10 +510,10 @@ var crafts = [
     ]
   },
   {
-    "id": "All.Weapon.Arrow",
+    "id": "All.Weapon.Arrow*9",
     "type": "normal",
     "group": "all",
-    "count": 9,
+    "count": 1,
     "lore": "",
     "crafts": [
       [
@@ -1377,17 +1377,17 @@ var crafts = [
       [
         [
           "People.Ingot.ClearIngot",
-          "People.Ingot.ClearIngot",
+          "Minecraft.BIRCH_PLANKS",
           "People.Ingot.ClearIngot"
         ],
         [
           "Dvarf.Ingot.ClearIngot",
-          "People.Ingot.ClearIngot",
+          "Minecraft.BIRCH_PLANKS",
           "Dvarf.Ingot.ClearIngot"
         ],
         [
           "People.Ingot.ClearIngot",
-          "People.Ingot.ClearIngot",
+          "Minecraft.BIRCH_PLANKS",
           "People.Ingot.ClearIngot"
         ]
       ],
@@ -4468,4 +4468,3 @@ var crafts = [
     "craft": "People.Ingot.ClearColdIngot"
   }
 ]
-
