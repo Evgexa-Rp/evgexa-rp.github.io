@@ -117,13 +117,13 @@ ul.ul {
     pointer-events: none;
 }
 .outputF{
-    margin-left: 265px;
-    width: 75px;
-    height: 75px;
+    margin-left: 275px;
+    width: 55px;
+    height: 55px;
 }
 .outputF > img{
-    width: 75px;
-    height: 75px;
+    width: 55px;
+    height: 55px;
     image-rendering: pixelated;
     pointer-events: none;
 }
