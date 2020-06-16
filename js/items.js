@@ -1424,27 +1424,27 @@ var items = {
   },
   "Minecraft.DARK_OAK_LOG": {
     "name": "Бревно тёмного дуба",
-    "image": "./img/items/dark_oak_log.png"
+    "image": "./img/items/Minecraft.DARK_OAK_LOG.png"
   },
   "Minecraft.JUNGLE_LOG": {
     "name": "Бревно тропического дерева",
-    "image": "./img/items/jungle_log.png"
+    "image": "./img/items/Minecraft.JUNGLE_LOG.png"
   },
   "Minecraft.OAK_LOG": {
     "name": "Дубовое бревно",
-    "image": "./img/items/oak_log.png"
+    "image": "./img/items/Minecraft.OAK_LOG.png"
   },
   "Minecraft.SPRUCE_LOG": {
     "name": "Еловое бревно",
-    "image": "./img/items/spruce_log.png"
+    "image": "./img/items/Minecraft.SPRUCE_LOG.png"
   },
   "Minecraft.BIRCH_LOG": {
     "name": "Берёзовое бревно",
-    "image": "./img/items/brich_log.png"
+    "image": "./img/items/Minecraft.BIRCH_LOG.png"
   },
-  "inecraft.ACACIA_LOG": {
+  "Minecraft.ACACIA_LOG": {
     "name": "Акациевое бревно",
-    "image": "./img/items/acacia_log.png"
+    "image": "./img/items/Minecraft.ACACIA_LOG.png"
   },
   "Minecraft.BLAZE_ROD": {
     "name": "Огненный стержень",
@@ -1468,23 +1468,23 @@ var items = {
   },
   "Minecraft.JUNGLE_PLANKS": {
     "name": "Доски из тропического дерева",
-    "image": "./img/items/jungle_planks.png"
+    "image": "./img/items/Minecraft.JUNGLE_PLANKS.png"
   },
   "Minecraft.ACACIA_PLANKS": {
     "name": "Акациевые доски",
-    "image": "./img/items/acacia_planks.png"
+    "image": "./img/items/Minecraft.ACACIA_PLANKS.png"
   },
   "Minecraft.BIRCH_PLANKS": {
     "name": "Берёзовые доски",
-    "image": "./img/items/birch_planks.png"
+    "image": "./img/items/Minecraft.BIRCH_PLANKS.png"
   },
   "Minecraft.DARK_OAK_PLANKS": {
     "name": "Доски из тёмного дуба",
-    "image": "./img/items/dark_oak_planks.png"
+    "image": "./img/items/Minecraft.DARK_OAK_PLANKS.png"
   },
   "Minecraft.OAK_PLANKS": {
     "name": "Дубовые доски",
-    "image": "./img/items/oak_planks.png"
+    "image": "./img/items/Minecraft.OAK_PLANKS.png"
   },
   "Minecraft.STRING": {
     "name": "Нить",
