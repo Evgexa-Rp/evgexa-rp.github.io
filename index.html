@@ -106,14 +106,16 @@ function normalCraftManager(){
     }
   });
 }
+
 function addNewFurnaceCraft(craft){
   let newCraft = document.createElement("div");
   newCraft.classList.add("block");
   newCraft.setAttribute("content",craft.group);
   try{
+    var search = `startSearch('${items[craft.id].name.replace(/<span.*>(.*)<\/span>/,"$1")}','${items[craft.craft].name.replace(/<span.*>(.*)<\/span>/,"$1")}')`
   newCraft.innerHTML = `<div class="furnace">
                             <div class="windowCraft">
-                                <div class="ingredient" item="${craft.craft}"">
+                                <div class="ingredient" onclick="${search}" item="${craft.craft}"">
                                   <img src="${items[craft.craft].image}">  
                                 </div>
                             </div>
@@ -123,10 +125,7 @@ function addNewFurnaceCraft(craft){
                 <li>${items[craft.id].name}</li>
                 <hr>
                   <p>
-					        ${
-                    "Время переплавки: "+Math.floor(craft.cooktime/20)+'с'
-                    
-                  }
+					        ${"Время переплавки: "+Math.floor(craft.cooktime/20)+'с'}
                   </p>${(craft.blastingtime>0)?("<p>Время в плавильни: "+Math.floor(craft.blastingtime/20)+"c</p>"):""}
               </div>
             </div>
@@ -163,7 +162,7 @@ function addNewCraft(craft){
     }
     if(craft.crafts.length > 1){
       setInterval(() => {
-        update(craft.id,craft.crafts);
+        update(craft,craft.crafts);
       }, 2000);
     }
   if (items[craft.id] == null) return;
@@ -191,7 +190,8 @@ var uIterator = 0;
 setInterval(() => {
   uIterator++;
 }, 2000);
-function update(id,craftList){
+function update(craft,craftList){
+    let id = craft;
     let craftGrid = document.getElementById(id);
     let oneCraft="";
     for (var i=0;i<3;i++){
@@ -201,7 +201,7 @@ function update(id,craftList){
           let el = craftList[uIterator%craftList.length][i][j];
           var onClick = "";
           if (el != null &&el.search("Minecraft") == -1){
-            //onClick = `startSearch("${items[el].name}","${items[el].name}")`;
+            onClick = `startSearch("${items[el].name}","${items[craft.id].name}")`;
           }
           oneCraft+=`<td class="craftTD" ${onClick} item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
         }
