@@ -510,10 +510,10 @@ var crafts = [
     ]
   },
   {
-    "id": "All.Weapon.Arrow*9",
+    "id": "All.Weapon.Arrow",
     "type": "normal",
     "group": "all",
-    "count": 1,
+    "count": 9,
     "lore": "",
     "crafts": [
       [
@@ -919,12 +919,12 @@ var crafts = [
         [
           "Dvarf.Ingot.ClearIngot",
           "Minecraft.SPRUCE_PLANKS",
-          "Dvarf.Ingot.Ingot"
+          "Dvarf.Ingot.ClearIngot"
         ],
         [
           "Dvarf.Ingot.ClearIngot",
           "Minecraft.SPRUCE_PLANKS",
-          "Dvarf.Ingot.Ingot"
+          "Dvarf.Ingot.ClearIngot"
         ],
         [
           "Dvarf.Ingot.ClearIngot",
