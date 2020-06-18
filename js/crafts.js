@@ -1,5 +1,47 @@
 var crafts = [
   {
+    "id": "Dvarf.Coin",
+    "type": "normal",
+    "group": "dvarf",
+    "count": 16,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.GOLD_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Elf.Coin",
+    "type": "normal",
+    "group": "elf",
+    "count": 8,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Elf.Ingot.SuperLog"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "People.Coin",
+    "type": "normal",
+    "group": "people",
+    "count": 16,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "Dvarf.Ingot.ColdIngot",
     "type": "normal",
     "group": "dvarf",
@@ -8,26 +50,26 @@ var crafts = [
     "crafts": [
       [
         [
-          "Minecraft.GOLD_INGOT",
+          "Minecraft.GOLD_NUGGET",
           "Minecraft.IRON_INGOT",
-          "Minecraft.GOLD_INGOT"
+          "Minecraft.GOLD_NUGGET"
         ],
         [
-          "Minecraft.IRON_INGOT",
+          "Minecraft.IRON_NUGGET",
           "Minecraft.GOLD_INGOT",
-          "Minecraft.IRON_INGOT"
+          "Minecraft.IRON_NUGGET"
         ]
       ],
       [
         [
-          "Minecraft.IRON_INGOT",
+          "Minecraft.IRON_NUGGET",
           "Minecraft.GOLD_INGOT",
-          "Minecraft.IRON_INGOT"
+          "Minecraft.IRON_NUGGET"
         ],
         [
-          "Minecraft.GOLD_INGOT",
+          "Minecraft.GOLD_NUGGET",
           "Minecraft.IRON_INGOT",
-          "Minecraft.GOLD_INGOT"
+          "Minecraft.GOLD_NUGGET"
         ]
       ]
     ]
@@ -412,9 +454,9 @@ var crafts = [
     "crafts": [
       [
         [
-          "Minecraft.IRON_INGOT",
           "Minecraft.IRON_NUGGET",
-          "Minecraft.IRON_INGOT"
+          "Minecraft.IRON_INGOT",
+          "Minecraft.IRON_NUGGET"
         ],
         [
           "Minecraft.IRON_NUGGET",
@@ -429,9 +471,9 @@ var crafts = [
           "Minecraft.IRON_NUGGET"
         ],
         [
-          "Minecraft.IRON_INGOT",
           "Minecraft.IRON_NUGGET",
-          "Minecraft.IRON_INGOT"
+          "Minecraft.IRON_INGOT",
+          "Minecraft.IRON_NUGGET"
         ]
       ]
     ]
@@ -513,7 +555,7 @@ var crafts = [
     "id": "All.Weapon.Arrow",
     "type": "normal",
     "group": "all",
-    "count": 9,
+    "count": 3,
     "lore": "",
     "crafts": [
       [
@@ -1497,34 +1539,34 @@ var crafts = [
       [
         [
           "Minecraft.STRING",
-          "Minecraft.STICK",
+          "Elf.Ingot.SuperStick",
           null
         ],
         [
           "Minecraft.STRING",
           null,
-          "Minecraft.STICK"
+          "Elf.Ingot.SuperStick"
         ],
         [
           "Minecraft.STRING",
-          "Minecraft.STICK",
+          "Elf.Ingot.SuperStick",
           null
         ]
       ],
       [
         [
           null,
-          "Minecraft.STICK",
+          "Elf.Ingot.SuperStick",
           "Minecraft.STRING"
         ],
         [
-          "Minecraft.STICK",
+          "Elf.Ingot.SuperStick",
           null,
           "Minecraft.STRING"
         ],
         [
           null,
-          "Minecraft.STICK",
+          "Elf.Ingot.SuperStick",
           "Minecraft.STRING"
         ]
       ]
@@ -1532,6 +1574,49 @@ var crafts = [
   },
   {
     "id": "Elf.Weapon.BowII",
+    "type": "normal",
+    "group": "elf",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.STRING",
+          "Elf.Ingot.SuperStick",
+          null
+        ],
+        [
+          "Minecraft.STRING",
+          null,
+          "Elf.Ingot.ElfQuartz"
+        ],
+        [
+          "Minecraft.STRING",
+          "Elf.Ingot.SuperStick",
+          null
+        ]
+      ],
+      [
+        [
+          null,
+          "Elf.Ingot.SuperStick",
+          "Minecraft.STRING"
+        ],
+        [
+          "Elf.Ingot.ElfQuartz",
+          null,
+          "Minecraft.STRING"
+        ],
+        [
+          null,
+          "Elf.Ingot.SuperStick",
+          "Minecraft.STRING"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Elf.Weapon.BowIII",
     "type": "normal",
     "group": "elf",
     "count": 1,
@@ -1568,49 +1653,6 @@ var crafts = [
         [
           null,
           "Elf.Ingot.SuperStick",
-          "Minecraft.STRING"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "Elf.Weapon.BowIII",
-    "type": "normal",
-    "group": "elf",
-    "count": 1,
-    "lore": "",
-    "crafts": [
-      [
-        [
-          "Minecraft.STRING",
-          "Elf.Ingot.EnchantedElfQuartz",
-          null
-        ],
-        [
-          "Minecraft.STRING",
-          null,
-          "Elf.Weapon.BowII"
-        ],
-        [
-          "Minecraft.STRING",
-          "Elf.Ingot.EnchantedElfQuartz",
-          null
-        ]
-      ],
-      [
-        [
-          null,
-          "Elf.Ingot.EnchantedElfQuartz",
-          "Minecraft.STRING"
-        ],
-        [
-          "Elf.Weapon.BowII",
-          null,
-          "Minecraft.STRING"
-        ],
-        [
-          null,
-          "Elf.Ingot.EnchantedElfQuartz",
           "Minecraft.STRING"
         ]
       ]
@@ -4403,6 +4445,27 @@ var crafts = [
           "People.Ingot.Ingot",
           null,
           "People.Ingot.Ingot"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "All.Mask.bag",
+    "type": "normal",
+    "group": "all",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.STRING",
+          "Minecraft.WHITE_WOOL",
+          "Minecraft.STRING"
+        ],
+        [
+          "Minecraft.WHITE_WOOL",
+          null,
+          "Minecraft.WHITE_WOOL"
         ]
       ]
     ]
