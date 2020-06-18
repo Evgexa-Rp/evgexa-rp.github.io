@@ -802,7 +802,7 @@ var items = {
     "image": "./img/items/Elf.Weapon.KingBow.png"
   },
   "Elf.Weapon.Arrow": {
-    "name": null,
+    "name": "Стрела",
     "lore": [],
     "image": "./img/items/Elf.Weapon.Arrow.png"
   },
@@ -1185,7 +1185,7 @@ var items = {
     "image": "./img/items/People.Weapon.CrossbowII.png"
   },
   "People.Weapon.Arrow": {
-    "name": null,
+    "name": "Стрела",
     "lore": [],
     "image": "./img/items/People.Weapon.Arrow.png"
   },
@@ -1323,7 +1323,7 @@ var items = {
     "image": "./img/items/People.Wand.png"
   },
   "All.Weapon.Arrow": {
-    "name": null,
+    "name": "Стрела",
     "lore": [],
     "image": "./img/items/All.Weapon.Arrow.png"
   },
