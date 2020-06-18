@@ -215,22 +215,22 @@ var items = {
     "image": "./img/items/Dvarf.Ingot.PigLeather.png"
   },
   "Dvarf.Ingot.ColdIngot": {
-    "name": "<span class='gold'>Сплав с примесями</span>",
+    "name": "<span class='gold'>Аконит  с примесями</span>",
     "lore": [],
     "image": "./img/items/Dvarf.Ingot.ColdIngot.png"
   },
   "Dvarf.Ingot.ClearColdIngot": {
-    "name": "<span class='gold'>Очищенный сплав</span>",
+    "name": "<span class='gold'>Очищенный аконит</span>",
     "lore": [],
     "image": "./img/items/Dvarf.Ingot.ClearColdIngot.png"
   },
   "Dvarf.Ingot.Ingot": {
-    "name": "<span class='gold'>Закалённый сплав с примесями</span>",
+    "name": "<span class='gold'>Закалённый аконит с примесями</span>",
     "lore": [],
     "image": "./img/items/Dvarf.Ingot.Ingot.png"
   },
   "Dvarf.Ingot.ClearIngot": {
-    "name": "<span class='gold'>Закалённый очищенный сплав</span>",
+    "name": "<span class='gold'>Закалённый очищенный аконит</span>",
     "lore": [],
     "image": "./img/items/Dvarf.Ingot.ClearIngot.png"
   },
@@ -802,7 +802,7 @@ var items = {
     "image": "./img/items/Elf.Weapon.KingBow.png"
   },
   "Elf.Weapon.Arrow": {
-    "name": "Стрела",
+    "name": null,
     "lore": [],
     "image": "./img/items/Elf.Weapon.Arrow.png"
   },
@@ -1046,7 +1046,7 @@ var items = {
       "<span class='red'>-1.0 Прочность</span>",
       "<span class='red'>-0.005 Скорость</span>"
     ],
-    "image": "./img/items/iron_helmet.png"
+    "image": "./img/items/People.ArmorTierIII.HELMET.png"
   },
   "People.ArmorTierIII.CHESTPLATE": {
     "name": "<span class='blue'>Рыцарский нагрудник</span>",
@@ -1058,7 +1058,7 @@ var items = {
       "<span class='red'>-1.0 Прочность</span>",
       "<span class='red'>-0.005 Скорость</span>"
     ],
-    "image": "./img/items/iron_chestplate.png"
+    "image": "./img/items/People.ArmorTierIII.CHESTPLATE.png"
   },
   "People.ArmorTierIII.LEGGINGS": {
     "name": "<span class='blue'>Рыцарские поножи</span>",
@@ -1070,7 +1070,7 @@ var items = {
       "<span class='red'>-1.0 Прочность</span>",
       "<span class='red'>-0.005 Скорость</span>"
     ],
-    "image": "./img/items/iron_leggings.png"
+    "image": "./img/items/People.ArmorTierIII.LEGGINGS.png"
   },
   "People.ArmorTierIII.BOOTS": {
     "name": "<span class='blue'>Рыцарские ботинки</span>",
@@ -1082,7 +1082,7 @@ var items = {
       "<span class='red'>-1.0 Прочность</span>",
       "<span class='red'>-0.005 Скорость</span>"
     ],
-    "image": "./img/items/iron_boots.png"
+    "image": "./img/items/People.ArmorTierIII.BOOTS.png"
   },
   "People.Armor.Horse": {
     "name": "<span class='blue'>Конский доспех</span>",
@@ -1185,7 +1185,7 @@ var items = {
     "image": "./img/items/People.Weapon.CrossbowII.png"
   },
   "People.Weapon.Arrow": {
-    "name": "Стрела",
+    "name": null,
     "lore": [],
     "image": "./img/items/People.Weapon.Arrow.png"
   },
@@ -1301,20 +1301,72 @@ var items = {
     "lore": [],
     "image": "./img/items/All.Ingot.Fairy.png"
   },
-  "All.Wand.Dvarf": {
-    "name": "<span class='yellow'>Трость короля гномов</span>",
-    "lore": [],
-    "image": "./img/items/All.Wand.Dvarf.png"
+  "Dvarf.Wand": {
+    "name": "<span class='gold'>Королевская трость</span>",
+    "lore": [
+      "<span class='gold'><MAGIC><GOLD>ГНОМОВ</></span>"
+    ],
+    "image": "./img/items/Dvarf.Wand.png"
   },
-  "All.Wand.Elf": {
-    "name": "<span class='yellow'>Трость короля эльфов</span>",
-    "lore": [],
-    "image": "./img/items/All.Wand.Elf.png"
+  "Elf.Wand": {
+    "name": "<span class='aqua'>Королевская трость</span>",
+    "lore": [
+      "<span class='gold'><MAGIC><GOLD>ЭЛЬФОВ</></span>"
+    ],
+    "image": "./img/items/Elf.Wand.png"
   },
-  "All.Wand.People": {
-    "name": "<span class='yellow'>Трость короля людей</span>",
+  "People.Wand": {
+    "name": "<span class='blue'>Королевская трость</span>",
+    "lore": [
+      "<span class='gold'><MAGIC><GOLD>ЛЮДЕЙ</></span>"
+    ],
+    "image": "./img/items/People.Wand.png"
+  },
+  "All.Weapon.Arrow": {
+    "name": null,
     "lore": [],
-    "image": "./img/items/All.Wand.People.png"
+    "image": "./img/items/All.Weapon.Arrow.png"
+  },
+  "Dvarf.Coin": {
+    "name": "<span class='gold'>Монета</span>",
+    "lore": [],
+    "image": "./img/items/Dvarf.Coin.png"
+  },
+  "Elf.Coin": {
+    "name": "<span class='aqua'>Монета</span>",
+    "lore": [],
+    "image": "./img/items/Elf.Coin.png"
+  },
+  "People.Coin": {
+    "name": "<span class='blue'>Монета</span>",
+    "lore": [],
+    "image": "./img/items/People.Coin.png"
+  },
+  "Dvarf.King": {
+    "name": "<span class='gold'>Королевская корона</span>",
+    "lore": [
+      "<span class='gold'><MAGIC><GOLD>ГНОМОВ</></span>"
+    ],
+    "image": "./img/items/Dvarf.King.png"
+  },
+  "Elf.King": {
+    "name": "<span class='aqua'>Королевская корона</span>",
+    "lore": [
+      "<span class='gold'><MAGIC><GOLD>ЭЛЬФОВ</></span>"
+    ],
+    "image": "./img/items/Elf.King.png"
+  },
+  "People.King": {
+    "name": "<span class='blue'>Королевская корона</span>",
+    "lore": [
+      "<span class='gold'><MAGIC><GOLD>ЛЮДЕЙ</></span>"
+    ],
+    "image": "./img/items/People.King.png"
+  },
+  "All.Mask.bag": {
+    "name": "<span class='yellow'>Мешок</span>",
+    "lore": [],
+    "image": "./img/items/All.Mask.bag.png"
   },
   "ALFA.ArmorTierIII.HELMET": {
     "name": "Тест шлем",
@@ -1406,7 +1458,7 @@ var items = {
     "name": "Золотой слиток",
     "image": "./img/items/gold_ingot.png"
   },
-  "Minecraft.IRON_INGOT":{
+  "Minecraft.IRON_INGOT": {
     "name": "Железный слиток",
     "image": "./img/items/iron_ingot.png"
   },
@@ -1522,11 +1574,11 @@ var items = {
     "name": "Кремень",
     "image": "./img/items/flint.png"
   },
-  "Minecraft.IRON_ORE":{
+  "Minecraft.IRON_ORE": {
     "name": "Железная руда",
     "image": ""
   },
-  "Minecraft.GOLD_ORE":{
+  "Minecraft.GOLD_ORE": {
     "name": "Золотая руда",
     "image": ""
   },
@@ -1536,7 +1588,6 @@ var items = {
   },
   "Minecraft.SPRUCE_PLANKS": {
     "name": "Еловые доски",
-    "image": "./img/items/Minecraft.SPRUCE_PLANKS.png",
+    "image": "./img/items/Minecraft.SPRUCE_PLANKS.png"
   }
 }
-//
