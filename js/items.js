@@ -8,7 +8,7 @@ var items = {
       "<span class='blue'>+8,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierI.HELMET.png"
+    "image": "./img/items/leather_helmet.png"
   },
   "Dvarf.ArmorTierI.CHESTPLATE": {
     "name": "<span class='gold'>Накидка из шкуры</span>",
@@ -19,7 +19,7 @@ var items = {
       "<span class='blue'>+14,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierI.CHESTPLATE.png"
+    "image": "./img/items/leather_chestplate.png"
   },
   "Dvarf.ArmorTierI.LEGGINGS": {
     "name": "<span class='gold'>Штаны из шкуры</span>",
@@ -30,7 +30,7 @@ var items = {
       "<span class='blue'>+12,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierI.LEGGINGS.png"
+    "image": "./img/items/leather_leggings.png"
   },
   "Dvarf.ArmorTierI.BOOTS": {
     "name": "<span class='gold'>Ботинки из шкуры</span>",
@@ -41,7 +41,7 @@ var items = {
       "<span class='blue'>+6,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierI.BOOTS.png"
+    "image": "./img/items/leather_boots.png"
   },
   "Dvarf.ArmorTierII.HELMET": {
     "name": "<span class='gold'>Гномий шлем</span>",
@@ -53,7 +53,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierII.HELMET.png"
+    "image": "./img/items/diamond_helmet.png"
   },
   "Dvarf.ArmorTierII.CHESTPLATE": {
     "name": "<span class='gold'>Гномий нагрудник</span>",
@@ -65,7 +65,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierII.CHESTPLATE.png"
+    "image": "./img/items/diamond_chestplate.png"
   },
   "Dvarf.ArmorTierII.LEGGINGS": {
     "name": "<span class='gold'>Гномьи поножи</span>",
@@ -77,7 +77,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierII.LEGGINGS.png"
+    "image": "./img/items/diamond_leggings.png"
   },
   "Dvarf.ArmorTierII.BOOTS": {
     "name": "<span class='gold'>Гномьи ботинки</span>",
@@ -89,7 +89,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierII.BOOTS.png"
+    "image": "./img/items/diamond_boots.png"
   },
   "Dvarf.ArmorTierIII.HELMET": {
     "name": "<span class='gold'>Тяжёлый гномий шлем</span>",
@@ -101,7 +101,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,01 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierIII.HELMET.png"
+    "image": "./img/items/diamond_helmet.png"
   },
   "Dvarf.ArmorTierIII.CHESTPLATE": {
     "name": "<span class='gold'>Тяжёлый гномий нагрудник</span>",
@@ -113,7 +113,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,01 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierIII.CHESTPLATE.png"
+    "image": "./img/items/diamond_chestplate.png"
   },
   "Dvarf.ArmorTierIII.LEGGINGS": {
     "name": "<span class='gold'>Тяжёлые гномьи поножи</span>",
@@ -125,7 +125,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,01 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierIII.LEGGINGS.png"
+    "image": "./img/items/diamond_leggings.png"
   },
   "Dvarf.ArmorTierIII.BOOTS": {
     "name": "<span class='gold'>Тяжёлые гномьи ботинки</span>",
@@ -137,7 +137,7 @@ var items = {
       "<span class='red'>-3,00 Прочность</span>",
       "<span class='red'>-0,01 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ArmorTierIII.BOOTS.png"
+    "image": "./img/items/diamond_boots.png"
   },
   "Dvarf.Weapon.KingDoubleAxe": {
     "name": "<span class='gold'>Гномья королевская секира</span>",
