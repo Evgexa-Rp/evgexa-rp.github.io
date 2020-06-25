@@ -8,7 +8,7 @@ var items = {
       "<span class='blue'>+8,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/leather_helmet.png"
+    "image": "./img/items/Dvarf.ArmorTierI.HELMET.png"
   },
   "Dvarf.ArmorTierI.CHESTPLATE": {
     "name": "<span class='gold'>Накидка из шкуры</span>",
@@ -19,7 +19,7 @@ var items = {
       "<span class='blue'>+14,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/leather_chestplate.png"
+    "image": "./img/items/Dvarf.ArmorTierI.CHESTPLATE.png"
   },
   "Dvarf.ArmorTierI.LEGGINGS": {
     "name": "<span class='gold'>Штаны из шкуры</span>",
@@ -30,7 +30,7 @@ var items = {
       "<span class='blue'>+12,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/leather_leggings.png"
+    "image": "./img/items/Dvarf.ArmorTierI.LEGGINGS.png"
   },
   "Dvarf.ArmorTierI.BOOTS": {
     "name": "<span class='gold'>Ботинки из шкуры</span>",
@@ -41,7 +41,7 @@ var items = {
       "<span class='blue'>+6,00 Броня</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/leather_boots.png"
+    "image": "./img/items/Dvarf.ArmorTierI.BOOTS.png"
   },
   "Dvarf.ArmorTierII.HELMET": {
     "name": "<span class='gold'>Гномий шлем</span>",
@@ -804,7 +804,7 @@ var items = {
   "Elf.Weapon.Arrow": {
     "name": "Стрела",
     "lore": [],
-    "image": "./img/items/Elf.Weapon.Arrow.png"
+    "image": "./img/items/arrow.png"
   },
   "Elf.Weapon.PoisonArrow": {
     "name": "<span class='aqua'>Стрела отравления</span>",
@@ -1092,7 +1092,7 @@ var items = {
       "<span class='blue'>+10,00 Твёрдость брони</span>",
       "<span class='blue'>+70,00 Броня</span>"
     ],
-    "image": "./img/items/People.Armor.Horse.png"
+    "image": "./img/items/iron_horse_armor.png"
   },
   "People.Weapon.KingDoubleSword": {
     "name": "<span class='blue'>Королевский двуручный меч</span>",
@@ -1187,7 +1187,7 @@ var items = {
   "People.Weapon.Arrow": {
     "name": "Стрела",
     "lore": [],
-    "image": "./img/items/People.Weapon.Arrow.png"
+    "image": "./img/items/arrow.png"
   },
   "People.Ingot.ColdIngot": {
     "name": "<span class='blue'>Сталь с примесями</span>",
@@ -1325,7 +1325,7 @@ var items = {
   "All.Weapon.Arrow": {
     "name": "Стрела",
     "lore": [],
-    "image": "./img/items/All.Weapon.Arrow.png"
+    "image": "./img/items/arrow.png"
   },
   "Dvarf.Coin": {
     "name": "<span class='gold'>Монета</span>",
