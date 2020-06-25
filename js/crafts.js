@@ -42,6 +42,183 @@ var crafts = [
     ]
   },
   {
+    "id": "Minecraft.PRISMARINE",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 4,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.VINE",
+          "Minecraft.VINE"
+        ],
+        [
+          "Minecraft.COBBLESTONE",
+          "Minecraft.GRAVEL"
+        ],
+        [
+          "Minecraft.SAND",
+          "Minecraft.COBBLESTONE"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.END_STONE",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 4,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.SAND",
+          "Minecraft.COBBLESTONE"
+        ],
+        [
+          "Minecraft.COBBLESTONE",
+          "Minecraft.GRAVEL"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.OAK_LOG",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.OAK_WOOD",
+          "Minecraft.OAK_WOOD"
+        ],
+        [
+          "Minecraft.OAK_WOOD",
+          "Minecraft.OAK_WOOD"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.SPRUCE_LOG",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.SPRUCE_WOOD",
+          "Minecraft.SPRUCE_WOOD"
+        ],
+        [
+          "Minecraft.SPRUCE_WOOD",
+          "Minecraft.SPRUCE_WOOD"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.BIRCH_LOG",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.BIRCH_WOOD",
+          "Minecraft.BIRCH_WOOD"
+        ],
+        [
+          "Minecraft.BIRCH_WOOD",
+          "Minecraft.BIRCH_WOOD"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.JUNGLE_LOG",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.JUNGLE_WOOD",
+          "Minecraft.JUNGLE_WOOD"
+        ],
+        [
+          "Minecraft.JUNGLE_WOOD",
+          "Minecraft.JUNGLE_WOOD"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.ACACIA_LOG",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.ACACIA_WOOD",
+          "Minecraft.ACACIA_WOOD"
+        ],
+        [
+          "Minecraft.ACACIA_WOOD",
+          "Minecraft.ACACIA_WOOD"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.DARK_OAK_LOG",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.DARK_OAK_WOOD",
+          "Minecraft.DARK_OAK_WOOD"
+        ],
+        [
+          "Minecraft.DARK_OAK_WOOD",
+          "Minecraft.DARK_OAK_WOOD"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.IRON_BARS",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 16,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.IRON_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "Dvarf.Ingot.ColdIngot",
     "type": "normal",
     "group": "dvarf",
@@ -58,18 +235,6 @@ var crafts = [
           "Minecraft.IRON_NUGGET",
           "Minecraft.GOLD_INGOT",
           "Minecraft.IRON_NUGGET"
-        ]
-      ],
-      [
-        [
-          "Minecraft.IRON_NUGGET",
-          "Minecraft.GOLD_INGOT",
-          "Minecraft.IRON_NUGGET"
-        ],
-        [
-          "Minecraft.GOLD_NUGGET",
-          "Minecraft.IRON_INGOT",
-          "Minecraft.GOLD_NUGGET"
         ]
       ]
     ]
@@ -351,6 +516,58 @@ var crafts = [
     ]
   },
   {
+    "id": "Minecraft.MAP",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.PAPER",
+          "Minecraft.PAPER",
+          "Minecraft.PAPER"
+        ],
+        [
+          "Minecraft.PAPER",
+          "Minecraft.INK_SAC",
+          "Minecraft.PAPER"
+        ],
+        [
+          "Minecraft.PAPER",
+          "Minecraft.PAPER",
+          "Minecraft.PAPER"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.LANTERN",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET",
+          "Elf.Ingot.SuperStick",
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.GLASS_PANE",
+          "Minecraft.TORCH",
+          "Minecraft.GLASS_PANE"
+        ],
+        [
+          "Minecraft.SMOOTH_STONE_SLAB",
+          "Minecraft.SMOOTH_STONE_SLAB",
+          "Minecraft.SMOOTH_STONE_SLAB"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "Elf.Ingot.SuperLog",
     "type": "normal",
     "group": "elf",
@@ -452,18 +669,6 @@ var crafts = [
     "count": 1,
     "lore": "",
     "crafts": [
-      [
-        [
-          "Minecraft.IRON_NUGGET",
-          "Minecraft.IRON_INGOT",
-          "Minecraft.IRON_NUGGET"
-        ],
-        [
-          "Minecraft.IRON_NUGGET",
-          "Minecraft.IRON_INGOT",
-          "Minecraft.IRON_NUGGET"
-        ]
-      ],
       [
         [
           "Minecraft.IRON_NUGGET",
@@ -667,27 +872,203 @@ var crafts = [
       [
         [
           "Dvarf.Ingot.Ingot",
-          "Dvarf.Ingot.Ingot"
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.BIRCH_PLANKS"
         ],
         [
           "Dvarf.Ingot.Ingot",
-          "Minecraft.STICK"
+          "Minecraft.STICK",
+          null
         ],
         [
           null,
-          "Minecraft.STICK"
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Minecraft.BIRCH_PLANKS",
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
         ]
       ],
       [
         [
           "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.DARK_OAK_PLANKS"
+        ],
+        [
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Minecraft.DARK_OAK_PLANKS",
+          "Dvarf.Ingot.Ingot",
           "Dvarf.Ingot.Ingot"
         ],
         [
+          null,
           "Minecraft.STICK",
           "Dvarf.Ingot.Ingot"
         ],
         [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.JUNGLE_PLANKS"
+        ],
+        [
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Minecraft.JUNGLE_PLANKS",
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.OAK_PLANKS"
+        ],
+        [
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Minecraft.OAK_PLANKS",
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.SPRUCE_PLANKS"
+        ],
+        [
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Minecraft.SPRUCE_PLANKS",
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.ACACIA_PLANKS"
+        ],
+        [
+          "Dvarf.Ingot.Ingot",
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Minecraft.ACACIA_PLANKS",
+          "Dvarf.Ingot.Ingot",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          "Dvarf.Ingot.Ingot"
+        ],
+        [
+          null,
           "Minecraft.STICK",
           null
         ]
@@ -4481,7 +4862,7 @@ var crafts = [
     "craft": "Minecraft.IRON_ORE"
   },
   {
-    "id": "Minecraft.GOLD_NUGGET",
+    "id": "Minecraft.GOLD_NUGGET*3",
     "type": "furnace",
     "group": "minecraft",
     "count": 1,
@@ -4531,3 +4912,4 @@ var crafts = [
     "craft": "People.Ingot.ClearColdIngot"
   }
 ]
+ 
