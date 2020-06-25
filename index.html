@@ -98,7 +98,7 @@ function hover(e){
 }
 normalCraftManager();
 function normalCraftManager(){
-  crafts.forEach(e=>{
+  crafts.forEach(e => {
     if (e.type=="normal"){
       addNewCraft(e);
     }else if(e.type=="furnace"){
@@ -111,6 +111,14 @@ function addNewFurnaceCraft(craft){
   let newCraft = document.createElement("div");
   newCraft.classList.add("block");
   newCraft.setAttribute("content",craft.group);
+  if (items[craft.id] == null) {
+			console.log("Unknown ITEM: "+craft.id);
+			return;
+  }
+	if (items[craft.craft] == null) {
+		console.log("Unknown ITEM: "+craft.craft);
+			return;
+  }
   try{
     var search = `startSearch('${items[craft.id].name.replace(/<span.*>(.*)<\/span>/,"$1")}','${items[craft.craft].name.replace(/<span.*>(.*)<\/span>/,"$1")}')`
   newCraft.innerHTML = `<div class="furnace">
@@ -131,6 +139,7 @@ function addNewFurnaceCraft(craft){
             </div>
         `}catch(e){
           console.log(craft.id);
+		  
         }
         document.getElementById("craftlist").append(newCraft);
 }
@@ -155,7 +164,12 @@ function addNewCraft(craft){
             }
             
           }
-          oneCraft+=`<td class="craftTD" onclick="${onClick}" item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
+		  try{
+			oneCraft+=`<td class="craftTD" onclick="${onClick}" item="${el}"><img src="${(el==null)?"air":items[el].image}" alt=""></td>`;
+		  }catch(e){
+			console.log("Unknown ITEM: "+el);
+		  }
+          
         }
       }
       oneCraft+="</tr>"
@@ -165,7 +179,11 @@ function addNewCraft(craft){
         update(craft,craft.crafts);
       }, 2000);
     }
-  if (items[craft.id] == null) return;
+  if (items[craft.id] == null) {
+	console.log("Unknown ITEM: "+craft.id);
+	return;
+  }
+  
   newCraft.innerHTML = `<div class="craft">
                             <div class="windowCraft">
                                 <table class="craftIcon" id="${craft.id}">
