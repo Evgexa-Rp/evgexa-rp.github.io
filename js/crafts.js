@@ -4862,10 +4862,10 @@ var crafts = [
     "craft": "Minecraft.IRON_ORE"
   },
   {
-    "id": "Minecraft.GOLD_NUGGET*3",
+    "id": "Minecraft.GOLD_NUGGET",
     "type": "furnace",
     "group": "minecraft",
-    "count": 1,
+    "count": 3,
     "cooktime": 80,
     "blastingtime": 60,
     "lore": "",
