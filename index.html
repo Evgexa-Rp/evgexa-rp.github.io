@@ -191,7 +191,7 @@ function addNewCraft(craft){
                                 </table>
                             </div>
                             
-                            <div class="output" item="${craft.id}"><img src="${items[craft.id].image}" alt=""></div> 
+                            <div class="output" item="${craft.id}"><img src="${items[craft.id].image}" alt="">${craft.count>1?"<span class='count'>"+craft.count+"</span>":""}</div> 
 					    </div>
               <div class="text">
                 <li>${items[craft.id].name}</li>

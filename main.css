@@ -277,3 +277,13 @@ ul.ul {
     margin-right: 10px;
     margin-top: 10px;
 }
+.count{
+margin-left: -30px;
+position: absolute;
+margin-top: 30px;
+text-align: right;
+font-family: Minecraftia-Regular;
+color: white;
+font-size: 20px;
+width: 32px;
+}
