@@ -124,7 +124,8 @@ function addNewFurnaceCraft(craft){
   newCraft.innerHTML = `<div class="furnace">
                             <div class="windowCraft">
                                 <div class="ingredient" onclick="${search}" item="${craft.craft}"">
-                                  <img src="${items[craft.craft].image}">  
+                                  <img src="${items[craft.craft].image}">
+                                  ${craft.count>1?"<span class='count'>"+craft.count+"</span>":""}
                                 </div>
                             </div>
                             <div class="outputF" item="${craft.id}"><img src="${items[craft.id].image}" alt=""></div> 
