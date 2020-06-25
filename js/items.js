@@ -1576,11 +1576,11 @@ var items = {
   },
   "Minecraft.IRON_ORE": {
     "name": "Железная руда",
-    "image": ""
+    "image": "./img/items/Minecraft.IRON_ORE.png"
   },
   "Minecraft.GOLD_ORE": {
     "name": "Золотая руда",
-    "image": ""
+    "image": "./img/items/Minecraft.GOLD_ORE.png"
   },
   "Minecraft.GOLD_NUGGET": {
     "name": "Золотой самородок",
