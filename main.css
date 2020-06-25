@@ -287,4 +287,5 @@ ul.ul {
     color: white;
     font-size: 25px;
     width: 32px;
+	pointer-events: none;
 }
