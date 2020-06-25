@@ -74,6 +74,7 @@ document.getElementById("craftlist").addEventListener("scroll", function(e){
 });
 function hover(e){
   if (e == null){
+    document.querySelector('#input').value = "";
     document.getElementById("hover").style.display = "none";
     return;
   }
