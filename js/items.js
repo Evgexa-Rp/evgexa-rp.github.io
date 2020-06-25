@@ -1589,6 +1589,94 @@ var items = {
   "Minecraft.SPRUCE_PLANKS": {
     "name": "Еловые доски",
     "image": "./img/items/Minecraft.SPRUCE_PLANKS.png"
+  },
+  "Minecraft.VINE": {
+    "name": "Леаны",
+    "image": "./img/items/Minecraft.VINE.png"
+  },
+  "Minecraft.COBBLESTONE": {
+    "name": "Булыжник",
+    "image": "./img/items/Minecraft.COBBLESTONE.png"
+  },
+  "Minecraft.GRAVEL": {
+    "name": "Гравий",
+    "image": "./img/items/Minecraft.GRAVEL.png"
+  },
+  "Minecraft.SAND": {
+    "name": "Песок",
+    "image": "./img/items/Minecraft.SAND.png"
+  },
+  "Minecraft.PRISMARINE": {
+    "name": "Призмарин",
+    "image": "./img/items/Minecraft.PRISMARINE.png"
+  },
+  "Minecraft.END_STONE": {
+    "name": "Эндерняк",
+    "image": "./img/items/Minecraft.END_STONE.png"
+  },
+  "Minecraft.OAK_WOOD": {
+    "name": "Дуб",
+    "image": "./img/items/Minecraft.OAK_WOOD.png"
+  },
+  "Minecraft.SPRUCE_WOOD": {
+    "name": "Ель",
+    "image": "./img/items/Minecraft.SPRUCE_WOOD.png"
+  },
+  "Minecraft.BIRCH_WOOD": {
+    "name": "Берёза",
+    "image": "./img/items/Minecraft.BIRCH_WOOD.png"
+  },
+  "Minecraft.JUNGLE_WOOD": {
+    "name": "Тропическое дерево",
+    "image": "./img/items/Minecraft.JUNGLE_WOOD.png"
+  },
+  "Minecraft.ACACIA_WOOD": {
+    "name": "Акация",
+    "image": "./img/items/Minecraft.ACACIA_WOOD.png"
+  },
+  "Minecraft.DARK_OAK_WOOD": {
+    "name": "Тёмный дуб",
+    "image": "./img/items/Minecraft.DARK_OAK_WOOD.png"
+  },
+  "Minecraft.IRON_BARS": {
+    "name": "Железные прутья",
+    "image": "./img/items/Minecraft.IRON_BARS.png"
+  },
+  "Minecraft.CHARCOAL": {
+    "name": "Древесный уголь",
+    "image": "./img/items/Minecraft.CHARCOAL.png"
+  },
+  "Minecraft.PAPER": {
+    "name": "Бумага",
+    "image": "./img/items/Minecraft.PAPER.png"
+  },
+  "Minecraft.INK_SAC": {
+    "name": "Чернильный мешок",
+    "image": "./img/items/Minecraft.INK_SAC.png"
+  },
+  "Minecraft.MAP": {
+    "name": "Чистая карта",
+    "image": "./img/items/Minecraft.MAP.png"
+  },
+  "Minecraft.LANTERN": {
+    "name": "Фонарь",
+    "image": "./img/items/Minecraft.LANTERN.png"
+  },
+  "Minecraft.GLASS_PANE": {
+    "name": "Стеклянная панель",
+    "image": "./img/items/Minecraft.GLASS_PANE.png"
+  },
+  "Minecraft.TORCH": {
+    "name": "Факел",
+    "image": "./img/items/Minecraft.TORCH.png"
+  },
+  "Minecraft.SMOOTH_STONE_SLAB": {
+    "name": "Плита из гладкого камня",
+    "image": "./img/items/Minecraft.SMOOTH_STONE_SLAB.png"
+  },
+  "Minecraft.WHITE_WOOL": {
+    "name": "Белая шерсть",
+    "image": "./img/items/Minecraft.WHITE_WOOL.png"
   }
 }
  
