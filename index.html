@@ -36,7 +36,6 @@
 function filter(param){
     sound(); 
     filterGroup=param;
-	//let value = this.value.toLowerCase().trim();
 	  sortCrafts();
 }
 function startSearch(ingreedient,output){
@@ -49,7 +48,7 @@ function sortCrafts(){
   let search = document.querySelector('#input').value.toLowerCase().trim();
   let list = document.querySelectorAll('.search .block');
   list.forEach(elem => {
-    if ((!filterGroup||elem.getAttribute("content") == filterGroup) && elem.innerText.toLowerCase().search(search) != -1 ) {
+    if ((!filterGroup||elem.getAttribute("content") == filterGroup || elem.getAttribute("content") == "minecraft" || elem.getAttribute("content") == "all") && elem.innerText.toLowerCase().search(search) != -1 ) {
 			elem.classList.remove('hide');
 		}else{
 			elem.classList.add('hide');
