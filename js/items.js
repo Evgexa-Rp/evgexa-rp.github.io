@@ -322,7 +322,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierII.HELMET.png"
+    "image": "./img/items/chainmail_helmet.png"
   },
   "Dvarf.ElfArmorTierII.CHESTPLATE": {
     "name": "<span class='gold'>Эльфийский нагрудник</span>",
@@ -335,7 +335,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierII.CHESTPLATE.png"
+    "image": "./img/items/chainmail_chestplate.png"
   },
   "Dvarf.ElfArmorTierII.LEGGINGS": {
     "name": "<span class='gold'>Эльфийские поножи</span>",
@@ -348,7 +348,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierII.LEGGINGS.png"
+    "image": "./img/items/chainmail_leggings.png"
   },
   "Dvarf.ElfArmorTierII.BOOTS": {
     "name": "<span class='gold'>Эльфийские ботинки</span>",
@@ -361,7 +361,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierII.BOOTS.png"
+    "image": "./img/items/chainmail_boots.png"
   },
   "Dvarf.ElfArmorTierIII.HELMET": {
     "name": "<span class='gold'>Улучшенный эльфийский шлем</span>",
@@ -374,7 +374,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierIII.HELMET.png"
+    "image": "./img/items/chainmail_helmet.png"
   },
   "Dvarf.ElfArmorTierIII.CHESTPLATE": {
     "name": "<span class='gold'>Улучшенный эльфийский нагрудник</span>",
@@ -387,7 +387,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierIII.CHESTPLATE.png"
+    "image": "./img/items/chainmail_chestplate.png"
   },
   "Dvarf.ElfArmorTierIII.LEGGINGS": {
     "name": "<span class='gold'>Улучшенные эльфийские поножи</span>",
@@ -400,7 +400,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierIII.LEGGINGS.png"
+    "image": "./img/items/chainmail_leggings.png"
   },
   "Dvarf.ElfArmorTierIII.BOOTS": {
     "name": "<span class='gold'>Улучшенные эльфийские ботинки</span>",
@@ -413,7 +413,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.ElfArmorTierIII.BOOTS.png"
+    "image": "./img/items/chainmail_boots.png"
   },
   "Dvarf.PeopleArmorTierII.HELMET": {
     "name": "<span class='gold'>Стальной шлем</span>",
@@ -426,7 +426,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierII.HELMET.png"
+    "image": "./img/items/iron_helmet.png"
   },
   "Dvarf.PeopleArmorTierII.CHESTPLATE": {
     "name": "<span class='gold'>Стальной нагрудник</span>",
@@ -439,7 +439,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierII.CHESTPLATE.png"
+    "image": "./img/items/iron_chestplate.png"
   },
   "Dvarf.PeopleArmorTierII.LEGGINGS": {
     "name": "<span class='gold'>Стальные поножи</span>",
@@ -452,7 +452,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierII.LEGGINGS.png"
+    "image": "./img/items/iron_leggings.png"
   },
   "Dvarf.PeopleArmorTierII.BOOTS": {
     "name": "<span class='gold'>Стальные ботинки</span>",
@@ -465,7 +465,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0035 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierII.BOOTS.png"
+    "image": "./img/items/iron_boots.png"
   },
   "Dvarf.PeopleArmorTierIII.HELMET": {
     "name": "<span class='gold'>Улучшенный стальной шлем</span>",
@@ -478,7 +478,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,006 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierIII.HELMET.png"
+    "image": "./img/items/iron_helmet.png"
   },
   "Dvarf.PeopleArmorTierIII.CHESTPLATE": {
     "name": "<span class='gold'>Улучшенный стальной нагрудник</span>",
@@ -491,7 +491,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,006 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierIII.CHESTPLATE.png"
+    "image": "./img/items/iron_chestplate.png"
   },
   "Dvarf.PeopleArmorTierIII.LEGGINGS": {
     "name": "<span class='gold'>Улучшенные стальные поножи</span>",
@@ -504,7 +504,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,006 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierIII.LEGGINGS.png"
+    "image": "./img/items/iron_leggings.png"
   },
   "Dvarf.PeopleArmorTierIII.BOOTS": {
     "name": "<span class='gold'>Улучшенные стальные ботинки</span>",
@@ -517,7 +517,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,006 Скорость</span>"
     ],
-    "image": "./img/items/Dvarf.PeopleArmorTierIII.BOOTS.png"
+    "image": "./img/items/iron_boots.png"
   },
   "Dvarf.ElfWeapon.SwordI": {
     "name": "<span class='gold'>Эльфийский клинок</span>",
@@ -648,7 +648,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0015 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierII.HELMET.png"
+    "image": "./img/items/chainmail_helmet.png"
   },
   "Elf.ArmorTierII.CHESTPLATE": {
     "name": "<span class='aqua'>Эльфийский нагрудник</span>",
@@ -660,7 +660,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0015 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierII.CHESTPLATE.png"
+    "image": "./img/items/chainmail_chestplate.png"
   },
   "Elf.ArmorTierII.LEGGINGS": {
     "name": "<span class='aqua'>Эльфийские поножи</span>",
@@ -672,7 +672,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0015 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierII.LEGGINGS.png"
+    "image": "./img/items/chainmail_leggings.png"
   },
   "Elf.ArmorTierII.BOOTS": {
     "name": "<span class='aqua'>Эльфийские ботинки</span>",
@@ -684,7 +684,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0015 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierII.BOOTS.png"
+    "image": "./img/items/chainmail_boots.png"
   },
   "Elf.ArmorTierIII.HELMET": {
     "name": "<span class='aqua'>Шлем высших эльфов</span>",
@@ -696,7 +696,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierIII.HELMET.png"
+    "image": "./img/items/chainmail_helmet.png"
   },
   "Elf.ArmorTierIII.CHESTPLATE": {
     "name": "<span class='aqua'>Нагрудник высших эльфов</span>",
@@ -708,7 +708,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierIII.CHESTPLATE.png"
+    "image": "./img/items/chainmail_chestplate.png"
   },
   "Elf.ArmorTierIII.LEGGINGS": {
     "name": "<span class='aqua'>Поножи высших эльфов</span>",
@@ -720,7 +720,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierIII.LEGGINGS.png"
+    "image": "./img/items/chainmail_leggings.png"
   },
   "Elf.ArmorTierIII.BOOTS": {
     "name": "<span class='aqua'>Ботинки высших эльфов</span>",
@@ -732,7 +732,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/Elf.ArmorTierIII.BOOTS.png"
+    "image": "./img/items/chainmail_boots.png"
   },
   "Elf.Weapon.Sword0": {
     "name": "<span class='aqua'>Резной клинок</span>",
@@ -998,7 +998,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierII.HELMET.png"
+    "image": "./img/items/iron_helmet.png"
   },
   "People.ArmorTierII.CHESTPLATE": {
     "name": "<span class='blue'>Стальной нагрудник</span>",
@@ -1010,7 +1010,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierII.CHESTPLATE.png"
+    "image": "./img/items/iron_chestplate.png"
   },
   "People.ArmorTierII.LEGGINGS": {
     "name": "<span class='blue'>Стальные поножи</span>",
@@ -1022,7 +1022,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierII.LEGGINGS.png"
+    "image": "./img/items/iron_leggings.png"
   },
   "People.ArmorTierII.BOOTS": {
     "name": "<span class='blue'>Стальные ботинки</span>",
@@ -1034,7 +1034,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,0025 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierII.BOOTS.png"
+    "image": "./img/items/iron_boots.png"
   },
   "People.ArmorTierIII.HELMET": {
     "name": "<span class='blue'>Рыцарский шлем</span>",
@@ -1046,7 +1046,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierIII.HELMET.png"
+    "image": "./img/items/iron_helmet.png"
   },
   "People.ArmorTierIII.CHESTPLATE": {
     "name": "<span class='blue'>Рыцарский нагрудник</span>",
@@ -1058,7 +1058,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierIII.CHESTPLATE.png"
+    "image": "./img/items/iron_chestplate.png"
   },
   "People.ArmorTierIII.LEGGINGS": {
     "name": "<span class='blue'>Рыцарские поножи</span>",
@@ -1070,7 +1070,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierIII.LEGGINGS.png"
+    "image": "./img/items/iron_leggings.png"
   },
   "People.ArmorTierIII.BOOTS": {
     "name": "<span class='blue'>Рыцарские ботинки</span>",
@@ -1082,7 +1082,7 @@ var items = {
       "<span class='red'>-1,00 Прочность</span>",
       "<span class='red'>-0,005 Скорость</span>"
     ],
-    "image": "./img/items/People.ArmorTierIII.BOOTS.png"
+    "image": "./img/items/iron_boots.png"
   },
   "People.Armor.Horse": {
     "name": "<span class='blue'>Конский доспех</span>",
