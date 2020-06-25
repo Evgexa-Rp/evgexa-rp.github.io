@@ -10,7 +10,7 @@
 <body>
    <div class="main">
      
-      <div class="buttons"><button class="mcbutton">Лор</button><button class="mcbutton" style="display: none;">EvgexaKeys</button></div>
+      <div class="buttons"><button style="display: none;" class="mcbutton">Лор</button><button class="mcbutton" style="display: none;">EvgexaKeys</button></div>
        <div class="search">
         <p class="wiki">Wiki Kingdom <b>RP</b><i>G</i></p>
 		   	<div class="searchBar">
@@ -26,6 +26,7 @@
 			<div class="scroll" id="craftlist">
 
       </div>
+          <p style="margin: 0;color:#1936c2">Coded by Sirboys with &lt;3</p>
 			</div>
         </div>
     <div class="hoverItem" style="display: none;" id="hover">
@@ -125,7 +126,6 @@ function addNewFurnaceCraft(craft){
                             <div class="windowCraft">
                                 <div class="ingredient" onclick="${search}" item="${craft.craft}"">
                                   <img src="${items[craft.craft].image}">
-                                  
                                 </div>
                             </div>
                             <div class="outputF" item="${craft.id}"><img src="${items[craft.id].image}" alt="">${craft.count>1?"<span class='count'>"+craft.count+"</span>":""}</div> 
