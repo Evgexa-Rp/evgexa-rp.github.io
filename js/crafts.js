@@ -42,6 +42,179 @@ var crafts = [
     ]
   },
   {
+    "id": "Minecraft.PRISMARINE_CRYSTALS",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 8,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ],
+        [
+          "Minecraft.GLOWSTONE_DUST",
+          "Minecraft.PRISMARINE_SHARD",
+          "Minecraft.GLOWSTONE_DUST"
+        ],
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.PRISMARINE_SHARD",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 8,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.SAND",
+          "Minecraft.SAND",
+          "Minecraft.SAND"
+        ],
+        [
+          "Minecraft.GLOWSTONE_DUST",
+          "Minecraft.QUARTZ",
+          "Minecraft.GLOWSTONE_DUST"
+        ],
+        [
+          "Minecraft.GRAVEL",
+          "Minecraft.GRAVEL",
+          "Minecraft.GRAVEL"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.SOUL_LANTERN",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ],
+        [
+          "Minecraft.GLOWSTONE_DUST",
+          "Minecraft.LANTERN",
+          "Minecraft.GLOWSTONE_DUST"
+        ],
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.SOUL_TORCH",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ],
+        [
+          "Minecraft.GLOWSTONE_DUST",
+          "Minecraft.TORCH",
+          "Minecraft.GLOWSTONE_DUST"
+        ],
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.SHROOMLIGHT",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 4,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ],
+        [
+          "Minecraft.GLOWSTONE_DUST",
+          "Minecraft.RED_MUSHROOM",
+          "Minecraft.GLOWSTONE_DUST"
+        ],
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ]
+      ],
+      [
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ],
+        [
+          "Minecraft.GLOWSTONE_DUST",
+          "Minecraft.BROWN_MUSHROOM",
+          "Minecraft.GLOWSTONE_DUST"
+        ],
+        [
+          null,
+          "Minecraft.GLOWSTONE_DUST",
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.VINE",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.KELP",
+          null,
+          "Minecraft.KELP"
+        ],
+        [
+          "Minecraft.KELP",
+          "Minecraft.KELP",
+          "Minecraft.KELP"
+        ],
+        [
+          "Minecraft.KELP",
+          null,
+          "Minecraft.KELP"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "Minecraft.PRISMARINE",
     "type": "normal",
     "group": "minecraft",
@@ -545,7 +718,7 @@ var crafts = [
     "id": "Minecraft.LANTERN",
     "type": "normal",
     "group": "minecraft",
-    "count": 1,
+    "count": 2,
     "lore": "",
     "crafts": [
       [
@@ -752,6 +925,177 @@ var crafts = [
           "People.Ingot.Ingot",
           null,
           "People.Ingot.Ingot"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Ingot.EnchantedDarkQuartz",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.DarkQuartz",
+          "Undead.Ingot.DarkQuartz",
+          "Undead.Ingot.DarkQuartz"
+        ],
+        [
+          "Undead.Ingot.DarkQuartz",
+          "Undead.Ingot.DarkQuartz",
+          "Undead.Ingot.DarkQuartz"
+        ],
+        [
+          "Undead.Ingot.DarkQuartz",
+          "Undead.Ingot.DarkQuartz",
+          "Undead.Ingot.DarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.CHAIN",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 3,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_BARS"
+        ],
+        [
+          "Minecraft.IRON_BARS"
+        ],
+        [
+          "Minecraft.IRON_BARS"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.POWERED_RAIL",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 6,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.GOLD_NUGGET",
+          null,
+          "Minecraft.GOLD_NUGGET"
+        ],
+        [
+          "Minecraft.GOLD_NUGGET",
+          "Minecraft.STICK",
+          "Minecraft.GOLD_NUGGET"
+        ],
+        [
+          "Minecraft.GOLD_NUGGET",
+          "Minecraft.REDSTONE",
+          "Minecraft.GOLD_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.RAIL",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 6,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET",
+          null,
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.STICK",
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          null,
+          "Minecraft.IRON_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.DETECTOR_RAIL",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 6,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET",
+          null,
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.STONE_PRESSURE_PLATE",
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.REDSTONE",
+          "Minecraft.IRON_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.ACTIVATOR_RAIL",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 6,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.STICK",
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.REDSTONE_TORCH",
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.STICK",
+          "Minecraft.IRON_NUGGET"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Minecraft.MINECART",
+    "type": "normal",
+    "group": "minecraft",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.IRON_NUGGET",
+          null,
+          "Minecraft.IRON_NUGGET"
+        ],
+        [
+          "Minecraft.IRON_INGOT",
+          "Minecraft.IRON_NUGGET",
+          "Minecraft.IRON_INGOT"
         ]
       ]
     ]
@@ -2134,19 +2478,30 @@ var crafts = [
     "crafts": [
       [
         [
-          null,
-          "Minecraft.SPIDER_EYE",
-          null
-        ],
-        [
-          "Minecraft.SPIDER_EYE",
-          "Minecraft.ARROW",
           "Minecraft.SPIDER_EYE"
         ],
         [
-          null,
+          "Minecraft.ARROW"
+        ]
+      ],
+      [
+        [
           "Minecraft.SPIDER_EYE",
-          null
+          "Minecraft.ARROW"
+        ]
+      ],
+      [
+        [
+          "Minecraft.ARROW",
+          "Minecraft.SPIDER_EYE"
+        ]
+      ],
+      [
+        [
+          "Minecraft.ARROW"
+        ],
+        [
+          "Minecraft.SPIDER_EYE"
         ]
       ]
     ]
@@ -2160,19 +2515,30 @@ var crafts = [
     "crafts": [
       [
         [
-          null,
-          "Minecraft.FERMENTED_SPIDER_EYE",
-          null
-        ],
-        [
-          "Minecraft.FERMENTED_SPIDER_EYE",
-          "Minecraft.ARROW",
           "Minecraft.FERMENTED_SPIDER_EYE"
         ],
         [
-          null,
+          "Minecraft.ARROW"
+        ]
+      ],
+      [
+        [
           "Minecraft.FERMENTED_SPIDER_EYE",
-          null
+          "Minecraft.ARROW"
+        ]
+      ],
+      [
+        [
+          "Minecraft.ARROW",
+          "Minecraft.FERMENTED_SPIDER_EYE"
+        ]
+      ],
+      [
+        [
+          "Minecraft.ARROW"
+        ],
+        [
+          "Minecraft.FERMENTED_SPIDER_EYE"
         ]
       ]
     ]
@@ -2549,17 +2915,17 @@ var crafts = [
       [
         [
           "People.Ingot.ClearIngot",
-          "People.Ingot.ClearIngot",
+          "Minecraft.BIRCH_PLANKS",
           "People.Ingot.ClearIngot"
         ],
         [
           "People.Ingot.ClearIngot",
-          "People.Ingot.ClearIngot",
+          "Minecraft.BIRCH_PLANKS",
           "People.Ingot.ClearIngot"
         ],
         [
           "People.Ingot.ClearIngot",
-          "People.Ingot.ClearIngot",
+          "Minecraft.BIRCH_PLANKS",
           "People.Ingot.ClearIngot"
         ]
       ],
@@ -2690,6 +3056,207 @@ var crafts = [
           null,
           null,
           "Minecraft.STICK"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Weapon.DefaultSword",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Minecraft.STICK"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Weapon.Sword",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "People.Weapon.Sword",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ],
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.PeopleWeapon.Sword",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Weapon.DoubleSword",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "People.Weapon.DoubleSword",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ],
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.PeopleWeapon.DoubleSword",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Weapon.BowI",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Minecraft.STRING",
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          "Minecraft.STRING",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Minecraft.STRING",
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          null,
+          "Minecraft.STICK",
+          "Minecraft.STRING"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Minecraft.STRING"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          "Minecraft.STRING"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Weapon.BowII",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Elf.Weapon.BowII",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.Weapon.BowIII",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Elf.Weapon.BowIII",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
         ]
       ]
     ]
@@ -3522,6 +4089,126 @@ var crafts = [
         [
           "People.Ingot.ClearIngot",
           "People.Ingot.ClearIngot"
+        ],
+        [
+          null,
+          "Minecraft.STICK"
+        ],
+        [
+          null,
+          "Minecraft.STICK"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ToolsTierI.Pickaxe",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          null,
+          "Minecraft.STICK",
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ToolsTierI.Axe",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Minecraft.STICK"
+        ],
+        [
+          null,
+          "Minecraft.STICK"
+        ]
+      ],
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Minecraft.STICK",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Minecraft.STICK",
+          null
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ToolsTierI.Shovel",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Minecraft.STICK"
+        ],
+        [
+          "Minecraft.STICK"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ToolsTierI.Hoe",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Minecraft.STICK",
+          null
+        ],
+        [
+          "Minecraft.STICK",
+          null
+        ]
+      ],
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
         ],
         [
           null,
@@ -4831,6 +5518,308 @@ var crafts = [
     ]
   },
   {
+    "id": "Undead.ArmorTierI.HELMET",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierI.CHESTPLATE",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierI.LEGGINGS",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierI.BOOTS",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          null,
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierII.HELMET",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierII.HELMET",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierII.CHESTPLATE",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierII.CHESTPLATE",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierII.LEGGINGS",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierII.LEGGINGS",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierII.BOOTS",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierII.BOOTS",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierIII.HELMET",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierIII.HELMET",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierIII.CHESTPLATE",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierIII.CHESTPLATE",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierIII.LEGGINGS",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierIII.LEGGINGS",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Undead.ArmorTierIII.BOOTS",
+    "type": "normal",
+    "group": "undead",
+    "count": 1,
+    "lore": "",
+    "crafts": [
+      [
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Dvarf.ArmorTierIII.BOOTS",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ],
+        [
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz",
+          "Undead.Ingot.EnchantedDarkQuartz"
+        ]
+      ]
+    ]
+  },
+  {
     "id": "All.Mask.bag",
     "type": "normal",
     "group": "all",
@@ -4910,6 +5899,14 @@ var crafts = [
     "blastingtime": 36000,
     "lore": "",
     "craft": "People.Ingot.ClearColdIngot"
+  },
+  {
+    "id": "People.Ingot.SuperLeather",
+    "type": "itemframe",
+    "group": "people",
+    "count": 1,
+    "lore": "",
+    "craft": "People.Ingot.Leather"
   }
 ]
  
