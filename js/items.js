@@ -2,44 +2,44 @@ var items = {
   "Dvarf.ArmorTierI.HELMET": {
     "name": "<span class='gold'>Капюшон из шкуры</span>",
     "lore": [
-      "<b><span class='white'>Тяжелая броня</span></b>",
+      "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+8,00 Броня</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+8.00 Броня</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/Dvarf.ArmorTierI.HELMET.png"
   },
   "Dvarf.ArmorTierI.CHESTPLATE": {
     "name": "<span class='gold'>Накидка из шкуры</span>",
     "lore": [
-      "<b><span class='white'>Тяжелая броня</span></b>",
+      "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+14,00 Броня</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+14.00 Броня</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/Dvarf.ArmorTierI.CHESTPLATE.png"
   },
   "Dvarf.ArmorTierI.LEGGINGS": {
     "name": "<span class='gold'>Штаны из шкуры</span>",
     "lore": [
-      "<b><span class='white'>Тяжелая броня</span></b>",
+      "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+12,00 Броня</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+12.00 Броня</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/Dvarf.ArmorTierI.LEGGINGS.png"
   },
   "Dvarf.ArmorTierI.BOOTS": {
     "name": "<span class='gold'>Ботинки из шкуры</span>",
     "lore": [
-      "<b><span class='white'>Тяжелая броня</span></b>",
+      "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+6,00 Броня</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+6.00 Броня</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/Dvarf.ArmorTierI.BOOTS.png"
   },
@@ -48,10 +48,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+12,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+13.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/diamond_helmet.png"
   },
@@ -60,10 +60,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+20,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+22.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/diamond_chestplate.png"
   },
@@ -72,10 +72,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+18,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+19.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/diamond_leggings.png"
   },
@@ -84,10 +84,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+11.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/diamond_boots.png"
   },
@@ -96,10 +96,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+16,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,01 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+15.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.01 Скорость</span>"
     ],
     "image": "./img/items/diamond_helmet.png"
   },
@@ -108,10 +108,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+24,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,01 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+27.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.01 Скорость</span>"
     ],
     "image": "./img/items/diamond_chestplate.png"
   },
@@ -120,10 +120,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+22,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,01 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+25.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.01 Скорость</span>"
     ],
     "image": "./img/items/diamond_leggings.png"
   },
@@ -132,10 +132,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+13,00 Броня</span>",
-      "<span class='red'>-3,00 Прочность</span>",
-      "<span class='red'>-0,01 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+13.00 Броня</span>",
+      "<span class='red'>-3.00 Прочность</span>",
+      "<span class='red'>-0.01 Скорость</span>"
     ],
     "image": "./img/items/diamond_boots.png"
   },
@@ -144,9 +144,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Двуручное</span></b>",
       "",
-      "<span class='red'>-5,00 Прочность</span>",
-      "<span class='blue'>+40 Урон</span>",
-      "<span class='red'>-3,7 Скорость атаки</span>"
+      "<span class='red'>-5.00 Прочность</span>",
+      "<span class='blue'>+45 Урон</span>",
+      "<span class='red'>-3.7 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.KingDoubleAxe.png"
   },
@@ -155,9 +155,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Двуручное</span></b>",
       "",
-      "<span class='red'>-5,00 Прочность</span>",
+      "<span class='red'>-5.00 Прочность</span>",
       "<span class='blue'>+35 Урон</span>",
-      "<span class='red'>-3,65 Скорость атаки</span>"
+      "<span class='red'>-3.65 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.DoubleAxe.png"
   },
@@ -167,7 +167,7 @@ var items = {
       "<b><span class='white'>Одноручное</span></b>",
       "",
       "<span class='blue'>+25 Урон</span>",
-      "<span class='red'>-3,4 Скорость атаки</span>"
+      "<span class='red'>-3.4 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.Axe.png"
   },
@@ -176,7 +176,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,79 Прочность</span>"
+      "<span class='blue'>+1.79 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.MinShield.png"
   },
@@ -185,7 +185,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+2,97 Прочность</span>"
+      "<span class='blue'>+2.97 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.Shield.png"
   },
@@ -194,7 +194,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+3,57 Прочность</span>"
+      "<span class='blue'>+3.57 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.HeavyShield.png"
   },
@@ -203,9 +203,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Одноручное</span></b>",
       "",
-      "<span class='blue'>+0,52 Прочность</span>",
+      "<span class='blue'>+0.52 Прочность</span>",
       "<span class='blue'>+12 Урон</span>",
-      "<span class='red'>-2,8 Скорость атаки</span>"
+      "<span class='red'>-2.8 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.Weapon.MinSword.png"
   },
@@ -215,7 +215,7 @@ var items = {
     "image": "./img/items/Dvarf.Ingot.PigLeather.png"
   },
   "Dvarf.Ingot.ColdIngot": {
-    "name": "<span class='gold'>Аконит  с примесями</span>",
+    "name": "<span class='gold'>Аконит с примесями</span>",
     "lore": [],
     "image": "./img/items/Dvarf.Ingot.ColdIngot.png"
   },
@@ -244,7 +244,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,78 Прочность</span>"
+      "<span class='blue'>+0.78 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierI.Pickaxe.png"
   },
@@ -253,7 +253,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,78 Прочность</span>"
+      "<span class='blue'>+0.78 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierI.Axe.png"
   },
@@ -262,7 +262,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,78 Прочность</span>"
+      "<span class='blue'>+0.78 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierI.Shovel.png"
   },
@@ -271,7 +271,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,78 Прочность</span>"
+      "<span class='blue'>+0.78 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierI.Hoe.png"
   },
@@ -280,7 +280,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,52 Прочность</span>"
+      "<span class='blue'>+0.52 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierII.Pickaxe.png"
   },
@@ -289,7 +289,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,52 Прочность</span>"
+      "<span class='blue'>+0.52 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierII.Axe.png"
   },
@@ -298,7 +298,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,52 Прочность</span>"
+      "<span class='blue'>+0.52 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierII.Shovel.png"
   },
@@ -307,7 +307,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,52 Прочность</span>"
+      "<span class='blue'>+0.52 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.ToolsTierII.Hoe.png"
   },
@@ -317,10 +317,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+11.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_helmet.png"
   },
@@ -330,10 +330,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+17,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+18.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_chestplate.png"
   },
@@ -343,10 +343,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+15,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+16.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_leggings.png"
   },
@@ -356,10 +356,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+8,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+10.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_boots.png"
   },
@@ -369,10 +369,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+12,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+14.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/chainmail_helmet.png"
   },
@@ -382,10 +382,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+20,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+24.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/chainmail_chestplate.png"
   },
@@ -395,10 +395,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+18,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+20.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/chainmail_leggings.png"
   },
@@ -408,10 +408,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+12.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/chainmail_boots.png"
   },
@@ -421,10 +421,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+12,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+12.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/iron_helmet.png"
   },
@@ -434,10 +434,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+18,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+20.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/iron_chestplate.png"
   },
@@ -447,10 +447,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+16,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+18.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/iron_leggings.png"
   },
@@ -460,10 +460,10 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+9,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0035 Скорость</span>"
+      "<span class='blue'>+1.75 Твёрдость брони</span>",
+      "<span class='blue'>+10.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0035 Скорость</span>"
     ],
     "image": "./img/items/iron_boots.png"
   },
@@ -473,10 +473,10 @@ var items = {
       "<b><span class='white'>Тяжелая броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+14,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,006 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+16.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.006 Скорость</span>"
     ],
     "image": "./img/items/iron_helmet.png"
   },
@@ -486,10 +486,10 @@ var items = {
       "<b><span class='white'>Тяжелая броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+24,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,006 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+24.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.006 Скорость</span>"
     ],
     "image": "./img/items/iron_chestplate.png"
   },
@@ -499,10 +499,10 @@ var items = {
       "<b><span class='white'>Тяжелая броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+20,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,006 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+22.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.006 Скорость</span>"
     ],
     "image": "./img/items/iron_leggings.png"
   },
@@ -512,10 +512,10 @@ var items = {
       "<b><span class='white'>Тяжелая броня</span></b>",
       "<span class='gold'>Выкованы гномами</span>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+12,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,006 Скорость</span>"
+      "<span class='blue'>+2.75 Твёрдость брони</span>",
+      "<span class='blue'>+13.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.006 Скорость</span>"
     ],
     "image": "./img/items/iron_boots.png"
   },
@@ -525,7 +525,7 @@ var items = {
       "<b><span class='white'>Одноручное</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+22 Урон</span>",
+      "<span class='blue'>+25 Урон</span>",
       "<span class='red'>-3 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.ElfWeapon.SwordI.png"
@@ -536,8 +536,8 @@ var items = {
       "<b><span class='white'>Одноручное</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+27 Урон</span>",
-      "<span class='red'>-3,2 Скорость атаки</span>"
+      "<span class='blue'>+30 Урон</span>",
+      "<span class='red'>-3.2 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.ElfWeapon.SwordII.png"
   },
@@ -547,9 +547,9 @@ var items = {
       "<b><span class='white'>Двуручное</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='red'>-5,00 Прочность</span>",
-      "<span class='blue'>+32 Урон</span>",
-      "<span class='red'>-3,6 Скорость атаки</span>"
+      "<span class='red'>-5.00 Прочность</span>",
+      "<span class='blue'>+35 Урон</span>",
+      "<span class='red'>-3.6 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.PeopleWeapon.DoubleSword.png"
   },
@@ -559,8 +559,8 @@ var items = {
       "<b><span class='white'>Одноручное</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+22 Урон</span>",
-      "<span class='red'>-3,3 Скорость атаки</span>"
+      "<span class='blue'>+25 Урон</span>",
+      "<span class='red'>-3.3 Скорость атаки</span>"
     ],
     "image": "./img/items/Dvarf.PeopleWeapon.Sword.png"
   },
@@ -570,7 +570,7 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+1,49 Прочность</span>"
+      "<span class='blue'>+1.49 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.PeopleWeapon.MinShield.png"
   },
@@ -580,7 +580,7 @@ var items = {
       "<b><span class='white'>Легкая броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+2,60 Прочность</span>"
+      "<span class='blue'>+2.60 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.PeopleWeapon.Shield.png"
   },
@@ -590,7 +590,7 @@ var items = {
       "<b><span class='white'>Средняя броня</span></b>",
       "<span class='gold'>Выкован гномами</span>",
       "",
-      "<span class='blue'>+3,13 Прочность</span>"
+      "<span class='blue'>+3.13 Прочность</span>"
     ],
     "image": "./img/items/Dvarf.PeopleWeapon.HeavyShield.png"
   },
@@ -599,9 +599,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+6,00 Броня</span>",
-      "<span class='red'>-0,001 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+6.00 Броня</span>",
+      "<span class='red'>-0.001 Скорость</span>"
     ],
     "image": "./img/items/Elf.ArmorTierI.HELMET.png"
   },
@@ -610,9 +610,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-0,001 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+10.00 Броня</span>",
+      "<span class='red'>-0.001 Скорость</span>"
     ],
     "image": "./img/items/Elf.ArmorTierI.CHESTPLATE.png"
   },
@@ -621,9 +621,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+9,00 Броня</span>",
-      "<span class='red'>-0,001 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+9.00 Броня</span>",
+      "<span class='red'>-0.001 Скорость</span>"
     ],
     "image": "./img/items/Elf.ArmorTierI.LEGGINGS.png"
   },
@@ -632,9 +632,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+5,00 Броня</span>",
-      "<span class='red'>-0,001 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+5.00 Броня</span>",
+      "<span class='red'>-0.001 Скорость</span>"
     ],
     "image": "./img/items/Elf.ArmorTierI.BOOTS.png"
   },
@@ -643,10 +643,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+9,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+9.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/chainmail_helmet.png"
   },
@@ -655,10 +655,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+16,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+16.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/chainmail_chestplate.png"
   },
@@ -667,10 +667,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+13,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+13.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/chainmail_leggings.png"
   },
@@ -679,10 +679,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+7,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+7.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/chainmail_boots.png"
   },
@@ -691,10 +691,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+12.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_helmet.png"
   },
@@ -703,10 +703,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+17,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+20.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_chestplate.png"
   },
@@ -715,10 +715,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+15,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+18.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_leggings.png"
   },
@@ -727,10 +727,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+8,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+10.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/chainmail_boots.png"
   },
@@ -739,7 +739,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Одноручное</span></b>",
       "",
-      "<span class='blue'>+0,13 Прочность</span>",
+      "<span class='blue'>+0.13 Прочность</span>",
       "<span class='blue'>+7 Урон</span>",
       "<span class='red'>-2 Скорость атаки</span>"
     ],
@@ -751,7 +751,7 @@ var items = {
       "<b><span class='white'>Одноручное</span></b>",
       "",
       "<span class='blue'>+20 Урон</span>",
-      "<span class='red'>-2,8 Скорость атаки</span>"
+      "<span class='red'>-2.8 Скорость атаки</span>"
     ],
     "image": "./img/items/Elf.Weapon.SwordI.png"
   },
@@ -797,7 +797,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Стрелковое</span></b>",
       "",
-      "<span class='blue'>+35 Урон</span>"
+      "<span class='blue'>+40 Урон</span>"
     ],
     "image": "./img/items/Elf.Weapon.KingBow.png"
   },
@@ -841,7 +841,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,16 Прочность</span>"
+      "<span class='blue'>+0.16 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTier0.Pickaxe.png"
   },
@@ -850,7 +850,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,16 Прочность</span>"
+      "<span class='blue'>+0.16 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTier0.Axe.png"
   },
@@ -859,7 +859,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,16 Прочность</span>"
+      "<span class='blue'>+0.16 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTier0.Shovel.png"
   },
@@ -868,7 +868,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,16 Прочность</span>"
+      "<span class='blue'>+0.16 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTier0.Hoe.png"
   },
@@ -877,7 +877,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,50 Прочность</span>"
+      "<span class='blue'>+0.50 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierI.Pickaxe.png"
   },
@@ -886,7 +886,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,50 Прочность</span>"
+      "<span class='blue'>+0.50 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierI.Axe.png"
   },
@@ -895,7 +895,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,50 Прочность</span>"
+      "<span class='blue'>+0.50 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierI.Shovel.png"
   },
@@ -904,7 +904,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,50 Прочность</span>"
+      "<span class='blue'>+0.50 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierI.Hoe.png"
   },
@@ -913,7 +913,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,12 Прочность</span>"
+      "<span class='blue'>+0.12 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierII.Pickaxe.png"
   },
@@ -922,7 +922,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,12 Прочность</span>"
+      "<span class='blue'>+0.12 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierII.Axe.png"
   },
@@ -931,7 +931,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,12 Прочность</span>"
+      "<span class='blue'>+0.12 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierII.Shovel.png"
   },
@@ -940,7 +940,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,12 Прочность</span>"
+      "<span class='blue'>+0.12 Прочность</span>"
     ],
     "image": "./img/items/Elf.ToolsTierII.Hoe.png"
   },
@@ -949,9 +949,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+7,00 Броня</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+7.00 Броня</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/People.ArmorTierI.HELMET.png"
   },
@@ -960,9 +960,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+12,00 Броня</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+12.00 Броня</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/People.ArmorTierI.CHESTPLATE.png"
   },
@@ -971,9 +971,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+10.00 Броня</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/People.ArmorTierI.LEGGINGS.png"
   },
@@ -982,9 +982,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+1,00 Твёрдость брони</span>",
-      "<span class='blue'>+6,00 Броня</span>",
-      "<span class='red'>-0,0015 Скорость</span>"
+      "<span class='blue'>+1.00 Твёрдость брони</span>",
+      "<span class='blue'>+6.00 Броня</span>",
+      "<span class='red'>-0.0015 Скорость</span>"
     ],
     "image": "./img/items/People.ArmorTierI.BOOTS.png"
   },
@@ -993,10 +993,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+10,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+10.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/iron_helmet.png"
   },
@@ -1005,10 +1005,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+17,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+17.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/iron_chestplate.png"
   },
@@ -1017,10 +1017,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+15,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+15.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/iron_leggings.png"
   },
@@ -1029,10 +1029,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,50 Твёрдость брони</span>",
-      "<span class='blue'>+8,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,0025 Скорость</span>"
+      "<span class='blue'>+1.50 Твёрдость брони</span>",
+      "<span class='blue'>+8.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.0025 Скорость</span>"
     ],
     "image": "./img/items/iron_boots.png"
   },
@@ -1041,10 +1041,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+14,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+14.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/iron_helmet.png"
   },
@@ -1053,10 +1053,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+21,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+21.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/iron_chestplate.png"
   },
@@ -1065,10 +1065,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+19,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+19.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/iron_leggings.png"
   },
@@ -1077,10 +1077,10 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+2,50 Твёрдость брони</span>",
-      "<span class='blue'>+11,00 Броня</span>",
-      "<span class='red'>-1,00 Прочность</span>",
-      "<span class='red'>-0,005 Скорость</span>"
+      "<span class='blue'>+2.50 Твёрдость брони</span>",
+      "<span class='blue'>+11.00 Броня</span>",
+      "<span class='red'>-1.00 Прочность</span>",
+      "<span class='red'>-0.005 Скорость</span>"
     ],
     "image": "./img/items/iron_boots.png"
   },
@@ -1089,8 +1089,8 @@ var items = {
     "lore": [
       "<b><span class='white'>Тяжелая броня</span></b>",
       "",
-      "<span class='blue'>+10,00 Твёрдость брони</span>",
-      "<span class='blue'>+70,00 Броня</span>"
+      "<span class='blue'>+10.00 Твёрдость брони</span>",
+      "<span class='blue'>+70.00 Броня</span>"
     ],
     "image": "./img/items/iron_horse_armor.png"
   },
@@ -1099,9 +1099,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Двуручное</span></b>",
       "",
-      "<span class='red'>-5,00 Прочность</span>",
-      "<span class='blue'>+35 Урон</span>",
-      "<span class='red'>-3,65 Скорость атаки</span>"
+      "<span class='red'>-5.00 Прочность</span>",
+      "<span class='blue'>+40 Урон</span>",
+      "<span class='red'>-3.65 Скорость атаки</span>"
     ],
     "image": "./img/items/People.Weapon.KingDoubleSword.png"
   },
@@ -1110,9 +1110,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Двуручное</span></b>",
       "",
-      "<span class='red'>-5,00 Прочность</span>",
+      "<span class='red'>-5.00 Прочность</span>",
       "<span class='blue'>+30 Урон</span>",
-      "<span class='red'>-3,45 Скорость атаки</span>"
+      "<span class='red'>-3.45 Скорость атаки</span>"
     ],
     "image": "./img/items/People.Weapon.DoubleSword.png"
   },
@@ -1122,7 +1122,7 @@ var items = {
       "<b><span class='white'>Одноручное</span></b>",
       "",
       "<span class='blue'>+20 Урон</span>",
-      "<span class='red'>-3,15 Скорость атаки</span>"
+      "<span class='red'>-3.15 Скорость атаки</span>"
     ],
     "image": "./img/items/People.Weapon.Sword.png"
   },
@@ -1131,9 +1131,9 @@ var items = {
     "lore": [
       "<b><span class='white'>Одноручное</span></b>",
       "",
-      "<span class='blue'>+0,52 Прочность</span>",
+      "<span class='blue'>+0.52 Прочность</span>",
       "<span class='blue'>+10 Урон</span>",
-      "<span class='red'>-2,6 Скорость атаки</span>"
+      "<span class='red'>-2.6 Скорость атаки</span>"
     ],
     "image": "./img/items/People.Weapon.MinSword.png"
   },
@@ -1142,7 +1142,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+1,19 Прочность</span>"
+      "<span class='blue'>+1.19 Прочность</span>"
     ],
     "image": "./img/items/People.Weapon.MinShield.png"
   },
@@ -1151,7 +1151,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Легкая броня</span></b>",
       "",
-      "<span class='blue'>+2,23 Прочность</span>"
+      "<span class='blue'>+2.23 Прочность</span>"
     ],
     "image": "./img/items/People.Weapon.StealShield.png"
   },
@@ -1160,7 +1160,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Средняя броня</span></b>",
       "",
-      "<span class='blue'>+2,68 Прочность</span>"
+      "<span class='blue'>+2.68 Прочность</span>"
     ],
     "image": "./img/items/People.Weapon.StealHeavyShield.png"
   },
@@ -1170,7 +1170,7 @@ var items = {
       "<b><span class='white'>Стрелковое</span></b>",
       "",
       "<span class='blue'>+20 Урон</span>",
-      "<span class='red'>-0,04 Скорость</span>"
+      "<span class='red'>-0.04 Скорость</span>"
     ],
     "image": "./img/items/People.Weapon.CrossbowI.png"
   },
@@ -1180,7 +1180,7 @@ var items = {
       "<b><span class='white'>Стрелковое</span></b>",
       "",
       "<span class='blue'>+25 Урон</span>",
-      "<span class='red'>-0,09 Скорость</span>"
+      "<span class='red'>-0.09 Скорость</span>"
     ],
     "image": "./img/items/People.Weapon.CrossbowII.png"
   },
@@ -1229,7 +1229,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,25 Прочность</span>"
+      "<span class='blue'>+0.25 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierI.Pickaxe.png"
   },
@@ -1238,7 +1238,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,25 Прочность</span>"
+      "<span class='blue'>+0.25 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierI.Axe.png"
   },
@@ -1247,7 +1247,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,25 Прочность</span>"
+      "<span class='blue'>+0.25 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierI.Shovel.png"
   },
@@ -1256,7 +1256,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,25 Прочность</span>"
+      "<span class='blue'>+0.25 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierI.Hoe.png"
   },
@@ -1265,7 +1265,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,17 Прочность</span>"
+      "<span class='blue'>+0.17 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierII.Pickaxe.png"
   },
@@ -1274,7 +1274,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,17 Прочность</span>"
+      "<span class='blue'>+0.17 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierII.Axe.png"
   },
@@ -1283,7 +1283,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,17 Прочность</span>"
+      "<span class='blue'>+0.17 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierII.Shovel.png"
   },
@@ -1292,7 +1292,7 @@ var items = {
     "lore": [
       "<b><span class='white'>Инструмент</span></b>",
       "",
-      "<span class='blue'>+0,17 Прочность</span>"
+      "<span class='blue'>+0.17 Прочность</span>"
     ],
     "image": "./img/items/People.ToolsTierII.Hoe.png"
   },
@@ -1303,23 +1303,17 @@ var items = {
   },
   "Dvarf.Wand": {
     "name": "<span class='gold'>Королевская трость</span>",
-    "lore": [
-      "<span class='gold'><MAGIC><GOLD>ГНОМОВ</></span>"
-    ],
+    "lore": [],
     "image": "./img/items/Dvarf.Wand.png"
   },
   "Elf.Wand": {
     "name": "<span class='aqua'>Королевская трость</span>",
-    "lore": [
-      "<span class='gold'><MAGIC><GOLD>ЭЛЬФОВ</></span>"
-    ],
+    "lore": [],
     "image": "./img/items/Elf.Wand.png"
   },
   "People.Wand": {
     "name": "<span class='blue'>Королевская трость</span>",
-    "lore": [
-      "<span class='gold'><MAGIC><GOLD>ЛЮДЕЙ</></span>"
-    ],
+    "lore": [],
     "image": "./img/items/People.Wand.png"
   },
   "All.Weapon.Arrow": {
@@ -1677,6 +1671,21 @@ var items = {
   "Minecraft.WHITE_WOOL": {
     "name": "Белая шерсть",
     "image": "./img/items/Minecraft.WHITE_WOOL.png"
+  },
+  "DruidI.Wand": {
+    "name": "<span class='aqua'>Посох Верховного Понтифика</span>",
+    "lore": [],
+    "image": "./img/items/DruidI.Wand.png"
+  },
+  "DruidII.Wand": {
+    "name": "<span class='aqua'>Посох Кастеляна</span>",
+    "lore": [],
+    "image": "./img/items/DruidII.Wand.png"
+  },
+  "DruidIII.Wand": {
+    "name": "<span class='aqua'>Посох Хранителя</span>",
+    "lore": [],
+    "image": "./img/items/DruidIII.Wand.png"
   }
 }
  
