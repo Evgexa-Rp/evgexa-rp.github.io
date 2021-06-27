@@ -1,6 +1,6 @@
 const fs = require("fs");
 var items = {
-    "Dvarf.ArmorTierI.HELMET": {
+    "Dwarf.ArmorTierI.HELMET": {
       "name": "<span class='gold'>Капюшон из шкуры</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -9,9 +9,9 @@ var items = {
         "<span class='blue'>+8.0 Броня</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierI.HELMET.png"
+      "image": "./img/items/Dwarf.ArmorTierI.HELMET.png"
     },
-    "Dvarf.ArmorTierI.CHESTPLATE": {
+    "Dwarf.ArmorTierI.CHESTPLATE": {
       "name": "<span class='gold'>Накидка из шкуры</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -20,9 +20,9 @@ var items = {
         "<span class='blue'>+14.0 Броня</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierI.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.ArmorTierI.CHESTPLATE.png"
     },
-    "Dvarf.ArmorTierI.LEGGINGS": {
+    "Dwarf.ArmorTierI.LEGGINGS": {
       "name": "<span class='gold'>Штаны из шкуры</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -31,9 +31,9 @@ var items = {
         "<span class='blue'>+12.0 Броня</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierI.LEGGINGS.png"
+      "image": "./img/items/Dwarf.ArmorTierI.LEGGINGS.png"
     },
-    "Dvarf.ArmorTierI.BOOTS": {
+    "Dwarf.ArmorTierI.BOOTS": {
       "name": "<span class='gold'>Ботинки из шкуры</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -42,9 +42,9 @@ var items = {
         "<span class='blue'>+6.0 Броня</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierI.BOOTS.png"
+      "image": "./img/items/Dwarf.ArmorTierI.BOOTS.png"
     },
-    "Dvarf.ArmorTierII.HELMET": {
+    "Dwarf.ArmorTierII.HELMET": {
       "name": "<span class='gold'>Гномий шлем</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -54,9 +54,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.005 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierII.HELMET.png"
+      "image": "./img/items/Dwarf.ArmorTierII.HELMET.png"
     },
-    "Dvarf.ArmorTierII.CHESTPLATE": {
+    "Dwarf.ArmorTierII.CHESTPLATE": {
       "name": "<span class='gold'>Гномий нагрудник</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -66,9 +66,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.005 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierII.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.ArmorTierII.CHESTPLATE.png"
     },
-    "Dvarf.ArmorTierII.LEGGINGS": {
+    "Dwarf.ArmorTierII.LEGGINGS": {
       "name": "<span class='gold'>Гномьи поножи</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -78,9 +78,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.005 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierII.LEGGINGS.png"
+      "image": "./img/items/Dwarf.ArmorTierII.LEGGINGS.png"
     },
-    "Dvarf.ArmorTierII.BOOTS": {
+    "Dwarf.ArmorTierII.BOOTS": {
       "name": "<span class='gold'>Гномьи ботинки</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -90,9 +90,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.005 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierII.BOOTS.png"
+      "image": "./img/items/Dwarf.ArmorTierII.BOOTS.png"
     },
-    "Dvarf.ArmorTierIII.HELMET": {
+    "Dwarf.ArmorTierIII.HELMET": {
       "name": "<span class='gold'>Тяжёлый гномий шлем</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -102,9 +102,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.01 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierIII.HELMET.png"
+      "image": "./img/items/Dwarf.ArmorTierIII.HELMET.png"
     },
-    "Dvarf.ArmorTierIII.CHESTPLATE": {
+    "Dwarf.ArmorTierIII.CHESTPLATE": {
       "name": "<span class='gold'>Тяжёлый гномий нагрудник</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -114,9 +114,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.01 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierIII.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.ArmorTierIII.CHESTPLATE.png"
     },
-    "Dvarf.ArmorTierIII.LEGGINGS": {
+    "Dwarf.ArmorTierIII.LEGGINGS": {
       "name": "<span class='gold'>Тяжёлые гномьи поножи</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -126,9 +126,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.01 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierIII.LEGGINGS.png"
+      "image": "./img/items/Dwarf.ArmorTierIII.LEGGINGS.png"
     },
-    "Dvarf.ArmorTierIII.BOOTS": {
+    "Dwarf.ArmorTierIII.BOOTS": {
       "name": "<span class='gold'>Тяжёлые гномьи ботинки</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -138,9 +138,9 @@ var items = {
         "<span class='red'>-3.0 Прочность</span>",
         "<span class='red'>-0.01 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ArmorTierIII.BOOTS.png"
+      "image": "./img/items/Dwarf.ArmorTierIII.BOOTS.png"
     },
-    "Dvarf.Weapon.KingDoubleAxe": {
+    "Dwarf.Weapon.KingDoubleAxe": {
       "name": "<span class='gold'>Гномья королевская секира</span>",
       "lore": [
         "<b><span class='white'>Двуручное</span></b>",
@@ -149,9 +149,9 @@ var items = {
         "<span class='blue'>+40 Урон</span>",
         "<span class='red'>-3.7 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.KingDoubleAxe.png"
+      "image": "./img/items/Dwarf.Weapon.KingDoubleAxe.png"
     },
-    "Dvarf.Weapon.DoubleAxe": {
+    "Dwarf.Weapon.DoubleAxe": {
       "name": "<span class='gold'>Гномья секира</span>",
       "lore": [
         "<b><span class='white'>Двуручное</span></b>",
@@ -160,9 +160,9 @@ var items = {
         "<span class='blue'>+35 Урон</span>",
         "<span class='red'>-3.65 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.DoubleAxe.png"
+      "image": "./img/items/Dwarf.Weapon.DoubleAxe.png"
     },
-    "Dvarf.Weapon.Axe": {
+    "Dwarf.Weapon.Axe": {
       "name": "<span class='gold'>Гномий боевой топор</span>",
       "lore": [
         "<b><span class='white'>Одноручное</span></b>",
@@ -170,36 +170,36 @@ var items = {
         "<span class='blue'>+25 Урон</span>",
         "<span class='red'>-3.4 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.Axe.png"
+      "image": "./img/items/Dwarf.Weapon.Axe.png"
     },
-    "Dvarf.Weapon.MinShield": {
+    "Dwarf.Weapon.MinShield": {
       "name": "<span class='gold'>Лёгкий гномий щит</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
         "",
         "<span class='blue'>+1.8 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.MinShield.png"
+      "image": "./img/items/Dwarf.Weapon.MinShield.png"
     },
-    "Dvarf.Weapon.Shield": {
+    "Dwarf.Weapon.Shield": {
       "name": "<span class='gold'>Гномий щит</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
         "",
         "<span class='blue'>+3.0 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.Shield.png"
+      "image": "./img/items/Dwarf.Weapon.Shield.png"
     },
-    "Dvarf.Weapon.HeavyShield": {
+    "Dwarf.Weapon.HeavyShield": {
       "name": "<span class='gold'>Тяжёлый гномий щит</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
         "",
         "<span class='blue'>+3.6 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.HeavyShield.png"
+      "image": "./img/items/Dwarf.Weapon.HeavyShield.png"
     },
-    "Dvarf.Weapon.MinSword": {
+    "Dwarf.Weapon.MinSword": {
       "name": "<span class='gold'>Гномий кинжал</span>",
       "lore": [
         "<b><span class='white'>Одноручное</span></b>",
@@ -208,111 +208,111 @@ var items = {
         "<span class='blue'>+12 Урон</span>",
         "<span class='red'>-2.8 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.Weapon.MinSword.png"
+      "image": "./img/items/Dwarf.Weapon.MinSword.png"
     },
-    "Dvarf.Ingot.PigLeather": {
+    "Dwarf.Ingot.PigLeather": {
       "name": "<span class='gold'>Плотная свинная шкура</span>",
       "lore": [],
-      "image": "./img/items/Dvarf.Ingot.PigLeather.png"
+      "image": "./img/items/Dwarf.Ingot.PigLeather.png"
     },
-    "Dvarf.Ingot.ColdIngot": {
+    "Dwarf.Ingot.ColdIngot": {
       "name": "<span class='gold'>Сплав с примесями</span>",
       "lore": [],
-      "image": "./img/items/Dvarf.Ingot.ColdIngot.png"
+      "image": "./img/items/Dwarf.Ingot.ColdIngot.png"
     },
-    "Dvarf.Ingot.ClearColdIngot": {
+    "Dwarf.Ingot.ClearColdIngot": {
       "name": "<span class='gold'>Очищенный сплав</span>",
       "lore": [],
-      "image": "./img/items/Dvarf.Ingot.ClearColdIngot.png"
+      "image": "./img/items/Dwarf.Ingot.ClearColdIngot.png"
     },
-    "Dvarf.Ingot.Ingot": {
+    "Dwarf.Ingot.Ingot": {
       "name": "<span class='gold'>Закалённый сплав с примесями</span>",
       "lore": [],
-      "image": "./img/items/Dvarf.Ingot.Ingot.png"
+      "image": "./img/items/Dwarf.Ingot.Ingot.png"
     },
-    "Dvarf.Ingot.ClearIngot": {
+    "Dwarf.Ingot.ClearIngot": {
       "name": "<span class='gold'>Закалённый очищенный сплав</span>",
       "lore": [],
-      "image": "./img/items/Dvarf.Ingot.ClearIngot.png"
+      "image": "./img/items/Dwarf.Ingot.ClearIngot.png"
     },
-    "Dvarf.Ingot.Jewelry": {
+    "Dwarf.Ingot.Jewelry": {
       "name": "<span class='gold'>Драгоценности</span>",
       "lore": [],
-      "image": "./img/items/Dvarf.Ingot.Jewelry.png"
+      "image": "./img/items/Dwarf.Ingot.Jewelry.png"
     },
-    "Dvarf.ToolsTierI.Pickaxe": {
+    "Dwarf.ToolsTierI.Pickaxe": {
       "name": "<span class='gold'>Гномья кирка</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.8 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierI.Pickaxe.png"
+      "image": "./img/items/Dwarf.ToolsTierI.Pickaxe.png"
     },
-    "Dvarf.ToolsTierI.Axe": {
+    "Dwarf.ToolsTierI.Axe": {
       "name": "<span class='gold'>Гномий топор</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.8 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierI.Axe.png"
+      "image": "./img/items/Dwarf.ToolsTierI.Axe.png"
     },
-    "Dvarf.ToolsTierI.Shovel": {
+    "Dwarf.ToolsTierI.Shovel": {
       "name": "<span class='gold'>Гномья лопата</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.8 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierI.Shovel.png"
+      "image": "./img/items/Dwarf.ToolsTierI.Shovel.png"
     },
-    "Dvarf.ToolsTierI.Hoe": {
+    "Dwarf.ToolsTierI.Hoe": {
       "name": "<span class='gold'>Гномья мотыга</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.8 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierI.Hoe.png"
+      "image": "./img/items/Dwarf.ToolsTierI.Hoe.png"
     },
-    "Dvarf.ToolsTierII.Pickaxe": {
+    "Dwarf.ToolsTierII.Pickaxe": {
       "name": "<span class='gold'>Улучшенная гномья кирка</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.5 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierII.Pickaxe.png"
+      "image": "./img/items/Dwarf.ToolsTierII.Pickaxe.png"
     },
-    "Dvarf.ToolsTierII.Axe": {
+    "Dwarf.ToolsTierII.Axe": {
       "name": "<span class='gold'>Улучшенный гномий топор</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.5 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierII.Axe.png"
+      "image": "./img/items/Dwarf.ToolsTierII.Axe.png"
     },
-    "Dvarf.ToolsTierII.Shovel": {
+    "Dwarf.ToolsTierII.Shovel": {
       "name": "<span class='gold'>Улучшенная гномья лопата</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.5 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierII.Shovel.png"
+      "image": "./img/items/Dwarf.ToolsTierII.Shovel.png"
     },
-    "Dvarf.ToolsTierII.Hoe": {
+    "Dwarf.ToolsTierII.Hoe": {
       "name": "<span class='gold'>Улучшенная гномья мотыга</span>",
       "lore": [
         "<b><span class='white'>Инструмент</span></b>",
         "",
         "<span class='blue'>+0.5 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.ToolsTierII.Hoe.png"
+      "image": "./img/items/Dwarf.ToolsTierII.Hoe.png"
     },
-    "Dvarf.ElfArmorTierII.HELMET": {
+    "Dwarf.ElfArmorTierII.HELMET": {
       "name": "<span class='gold'>Эльфийский шлем</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -323,9 +323,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierII.HELMET.png"
+      "image": "./img/items/Dwarf.ElfArmorTierII.HELMET.png"
     },
-    "Dvarf.ElfArmorTierII.CHESTPLATE": {
+    "Dwarf.ElfArmorTierII.CHESTPLATE": {
       "name": "<span class='gold'>Эльфийский нагрудник</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -336,9 +336,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierII.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.ElfArmorTierII.CHESTPLATE.png"
     },
-    "Dvarf.ElfArmorTierII.LEGGINGS": {
+    "Dwarf.ElfArmorTierII.LEGGINGS": {
       "name": "<span class='gold'>Эльфийские поножи</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -349,9 +349,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierII.LEGGINGS.png"
+      "image": "./img/items/Dwarf.ElfArmorTierII.LEGGINGS.png"
     },
-    "Dvarf.ElfArmorTierII.BOOTS": {
+    "Dwarf.ElfArmorTierII.BOOTS": {
       "name": "<span class='gold'>Эльфийские ботинки</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -362,9 +362,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0025 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierII.BOOTS.png"
+      "image": "./img/items/Dwarf.ElfArmorTierII.BOOTS.png"
     },
-    "Dvarf.ElfArmorTierIII.HELMET": {
+    "Dwarf.ElfArmorTierIII.HELMET": {
       "name": "<span class='gold'>Улучшенный эльфийский шлем</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -375,9 +375,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierIII.HELMET.png"
+      "image": "./img/items/Dwarf.ElfArmorTierIII.HELMET.png"
     },
-    "Dvarf.ElfArmorTierIII.CHESTPLATE": {
+    "Dwarf.ElfArmorTierIII.CHESTPLATE": {
       "name": "<span class='gold'>Улучшенный эльфийский нагрудник</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -388,9 +388,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierIII.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.ElfArmorTierIII.CHESTPLATE.png"
     },
-    "Dvarf.ElfArmorTierIII.LEGGINGS": {
+    "Dwarf.ElfArmorTierIII.LEGGINGS": {
       "name": "<span class='gold'>Улучшенные эльфийские поножи</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -401,9 +401,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierIII.LEGGINGS.png"
+      "image": "./img/items/Dwarf.ElfArmorTierIII.LEGGINGS.png"
     },
-    "Dvarf.ElfArmorTierIII.BOOTS": {
+    "Dwarf.ElfArmorTierIII.BOOTS": {
       "name": "<span class='gold'>Улучшенные эльфийские ботинки</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -414,9 +414,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.ElfArmorTierIII.BOOTS.png"
+      "image": "./img/items/Dwarf.ElfArmorTierIII.BOOTS.png"
     },
-    "Dvarf.PeopleArmorTierII.HELMET": {
+    "Dwarf.PeopleArmorTierII.HELMET": {
       "name": "<span class='gold'>Стальной шлем</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -427,9 +427,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierII.HELMET.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierII.HELMET.png"
     },
-    "Dvarf.PeopleArmorTierII.CHESTPLATE": {
+    "Dwarf.PeopleArmorTierII.CHESTPLATE": {
       "name": "<span class='gold'>Стальной нагрудник</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -440,9 +440,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierII.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierII.CHESTPLATE.png"
     },
-    "Dvarf.PeopleArmorTierII.LEGGINGS": {
+    "Dwarf.PeopleArmorTierII.LEGGINGS": {
       "name": "<span class='gold'>Стальные поножи</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -453,9 +453,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierII.LEGGINGS.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierII.LEGGINGS.png"
     },
-    "Dvarf.PeopleArmorTierII.BOOTS": {
+    "Dwarf.PeopleArmorTierII.BOOTS": {
       "name": "<span class='gold'>Стальные ботинки</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -466,9 +466,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.0035 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierII.BOOTS.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierII.BOOTS.png"
     },
-    "Dvarf.PeopleArmorTierIII.HELMET": {
+    "Dwarf.PeopleArmorTierIII.HELMET": {
       "name": "<span class='gold'>Улучшенный стальной шлем</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -479,9 +479,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.006 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierIII.HELMET.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierIII.HELMET.png"
     },
-    "Dvarf.PeopleArmorTierIII.CHESTPLATE": {
+    "Dwarf.PeopleArmorTierIII.CHESTPLATE": {
       "name": "<span class='gold'>Улучшенный стальной нагрудник</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -492,9 +492,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.006 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierIII.CHESTPLATE.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierIII.CHESTPLATE.png"
     },
-    "Dvarf.PeopleArmorTierIII.LEGGINGS": {
+    "Dwarf.PeopleArmorTierIII.LEGGINGS": {
       "name": "<span class='gold'>Улучшенные стальные поножи</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -505,9 +505,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.006 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierIII.LEGGINGS.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierIII.LEGGINGS.png"
     },
-    "Dvarf.PeopleArmorTierIII.BOOTS": {
+    "Dwarf.PeopleArmorTierIII.BOOTS": {
       "name": "<span class='gold'>Улучшенные стальные ботинки</span>",
       "lore": [
         "<b><span class='white'>Тяжелая броня</span></b>",
@@ -518,9 +518,9 @@ var items = {
         "<span class='red'>-1.0 Прочность</span>",
         "<span class='red'>-0.006 Скорость</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleArmorTierIII.BOOTS.png"
+      "image": "./img/items/Dwarf.PeopleArmorTierIII.BOOTS.png"
     },
-    "Dvarf.ElfWeapon.SwordI": {
+    "Dwarf.ElfWeapon.SwordI": {
       "name": "<span class='gold'>Эльфийский клинок</span>",
       "lore": [
         "<b><span class='white'>Одноручное</span></b>",
@@ -529,9 +529,9 @@ var items = {
         "<span class='blue'>+22 Урон</span>",
         "<span class='red'>-3 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.ElfWeapon.SwordI.png"
+      "image": "./img/items/Dwarf.ElfWeapon.SwordI.png"
     },
-    "Dvarf.ElfWeapon.SwordII": {
+    "Dwarf.ElfWeapon.SwordII": {
       "name": "<span class='gold'>Улучшенный эльфийский клинок</span>",
       "lore": [
         "<b><span class='white'>Одноручное</span></b>",
@@ -540,9 +540,9 @@ var items = {
         "<span class='blue'>+27 Урон</span>",
         "<span class='red'>-3.2 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.ElfWeapon.SwordII.png"
+      "image": "./img/items/Dwarf.ElfWeapon.SwordII.png"
     },
-    "Dvarf.PeopleWeapon.DoubleSword": {
+    "Dwarf.PeopleWeapon.DoubleSword": {
       "name": "<span class='gold'>Стальной двуручный меч</span>",
       "lore": [
         "<b><span class='white'>Двуручное</span></b>",
@@ -552,9 +552,9 @@ var items = {
         "<span class='blue'>+32 Урон</span>",
         "<span class='red'>-3.6 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleWeapon.DoubleSword.png"
+      "image": "./img/items/Dwarf.PeopleWeapon.DoubleSword.png"
     },
-    "Dvarf.PeopleWeapon.Sword": {
+    "Dwarf.PeopleWeapon.Sword": {
       "name": "<span class='gold'>Стальной меч</span>",
       "lore": [
         "<b><span class='white'>Одноручное</span></b>",
@@ -563,9 +563,9 @@ var items = {
         "<span class='blue'>+22 Урон</span>",
         "<span class='red'>-3.3 Скорость атаки</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleWeapon.Sword.png"
+      "image": "./img/items/Dwarf.PeopleWeapon.Sword.png"
     },
-    "Dvarf.PeopleWeapon.MinShield": {
+    "Dwarf.PeopleWeapon.MinShield": {
       "name": "<span class='gold'>Лёгкий стальной щит</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -573,9 +573,9 @@ var items = {
         "",
         "<span class='blue'>+1.5 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleWeapon.MinShield.png"
+      "image": "./img/items/Dwarf.PeopleWeapon.MinShield.png"
     },
-    "Dvarf.PeopleWeapon.Shield": {
+    "Dwarf.PeopleWeapon.Shield": {
       "name": "<span class='gold'>Стальной щит</span>",
       "lore": [
         "<b><span class='white'>Легкая броня</span></b>",
@@ -583,9 +583,9 @@ var items = {
         "",
         "<span class='blue'>+2.6 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleWeapon.Shield.png"
+      "image": "./img/items/Dwarf.PeopleWeapon.Shield.png"
     },
-    "Dvarf.PeopleWeapon.HeavyShield": {
+    "Dwarf.PeopleWeapon.HeavyShield": {
       "name": "<span class='gold'>Тяжёлый стальной щит</span>",
       "lore": [
         "<b><span class='white'>Средняя броня</span></b>",
@@ -593,7 +593,7 @@ var items = {
         "",
         "<span class='blue'>+3.1 Прочность</span>"
       ],
-      "image": "./img/items/Dvarf.PeopleWeapon.HeavyShield.png"
+      "image": "./img/items/Dwarf.PeopleWeapon.HeavyShield.png"
     },
     "Elf.ArmorTierI.HELMET": {
       "name": "<span class='aqua'>Резной шлем</span>",
@@ -1302,10 +1302,10 @@ var items = {
       "lore": [],
       "image": "./img/items/All.Ingot.Fairy.png"
     },
-    "All.Wand.Dvarf": {
+    "All.Wand.Dwarf": {
       "name": "<span class='yellow'>Трость короля гномов</span>",
       "lore": [],
-      "image": "./img/items/All.Wand.Dvarf.png"
+      "image": "./img/items/All.Wand.Dwarf.png"
     },
     "All.Wand.Elf": {
       "name": "<span class='yellow'>Трость короля эльфов</span>",
