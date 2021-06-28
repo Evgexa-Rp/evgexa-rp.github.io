@@ -1666,19 +1666,19 @@ var crafts = [
         "crafts": [
             [
                 [
-					"All.Wood.OAK",
-					"All.Wood.OAK",
-					"All.Wood.OAK"
+					"All.Wood.BIRCH",
+					"All.Wood.BIRCH",
+					"All.Wood.BIRCH"
 				],
 				[
-					"All.Wood.OAK",
+					"All.Wood.BIRCH",
 					null,
-					"All.Wood.OAK"
+					"All.Wood.BIRCH"
 				],
 				[
-					"All.Wood.OAK",
-					"All.Wood.OAK",
-					"All.Wood.OAK"
+					"All.Wood.BIRCH",
+					"All.Wood.BIRCH",
+					"All.Wood.BIRCH"
 				]
             ]
         ]

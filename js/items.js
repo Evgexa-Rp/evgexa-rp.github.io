@@ -87,22 +87,22 @@ var items = {
         "image": "./img/textures/evgeha-rp/all/all_wood_spruce.png"
     },
 	"All.Wood.BIRCH": {
-        "name": "<span class='white'>Обрубок тропического дерева</span>",
+        "name": "<span class='white'>Берёзовый обробок</span>",
         "lore": [],
         "image": "./img/textures/evgeha-rp/all/all_wood_birch.png"
     },
 	"All.Wood.JUNGLE": {
-        "name": "<span class='white'>Акациевый обрубок</span>",
+        "name": "<span class='white'>Обрубок тропического дерева</span>",
         "lore": [],
         "image": "./img/textures/evgeha-rp/all/all_wood_jungle.png"
     },
 	"All.Wood.ACACIA": {
-        "name": "<span class='white'>Обрубок тёмного дуба</span>",
+        "name": "<span class='white'>Акациевый обрубок</span>",
         "lore": [],
         "image": "./img/textures/evgeha-rp/all/all_wood_acacia.png"
     },
 	"All.Wood.DARK_OAK": {
-        "name": "<span class='white'>Дубовый обрубок</span>",
+        "name": "<span class='white'>Обрубок тёмного дуба</span>",
         "lore": [],
         "image": "./img/textures/evgeha-rp/all/all_wood_darkoak.png"
     },
@@ -1736,7 +1736,7 @@ var items = {
         "image": "./img/items/iron_nugget.png"
     },
     "Minecraft.LEATHER": {
-        "name": "Кожаный шлем",
+        "name": "Кожа",
 		"lore": [],
         "image": "./img/items/leather.png"
     },
